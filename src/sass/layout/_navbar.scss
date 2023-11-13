@@ -1,0 +1,14 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  &__menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    & a{
+      color: $colour-text;
+      text-decoration: none;
+    }
+  }
+}

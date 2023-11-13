@@ -1,0 +1,67 @@
+//Colour Palette
+$colour-primary:  #48517A;
+$colour-secondary: #131520;
+
+$colour-accent:  #5E6BA1;
+$colour-text:  #E5E7F0;
+$colour-dark:  #1b1b1b;
+// $colour-background: #deeded;
+$colour-background: #000000;
+
+//Font weights
+// $fw-reg: 300;
+// $fw-bold: 900;
+
+//Breakpoints
+$breakpoint-tablet: 1024px;
+$breakpoint-mobile: 767.98px;
+
+//Box Shadows
+
+$bs-colour-accent: 0 0 20px $colour-accent;
+
+//Typography
+
+$ff-primary: 'Poppins';
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
+
+body {
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+$fs-h1: 4.210rem;
+$fs-mobile-h1: 3.158rem;
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+$fs-h2: 3.158rem;
+$fs-mobile-h2: 2.369rem;
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+$fs-h3: 2.369rem;
+$fs-mobile-h3: 1.777rem;
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+$fs-h4: 1.777rem;
+$fs-mobile-h4: 1.333rem;
+
+h5 {font-size: 1.333rem; /* 21.28px */}
+
+$fs-h5: 1.333rem;
+$fs-mobile-h5: 0.750rem;
+
+small {font-size: 0.750rem; /* 12px */}
