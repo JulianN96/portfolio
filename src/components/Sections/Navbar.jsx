@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className='navbar'>
       <div className='navbar__menu'>
-        <a href='#about'>{t('About')}</a>
+        <a href='#about'>{t('About.Title')}</a>
         <a href='#services'>Services</a>
         <a href='#experience'>Experience</a>
         <a href='#projects'>{t('Projects')}</a>

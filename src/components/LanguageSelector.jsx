@@ -14,7 +14,7 @@ export default function LanguageSelector() {
   }
 
   return (
-    <select defaultValue={selectedLanguage} onChange={chooseLanguage}>
+    <select className='languageSelector' defaultValue={selectedLanguage} onChange={chooseLanguage}>
       <option value='en'>English</option>
       <option value='fr'>Francais</option>
     </select>

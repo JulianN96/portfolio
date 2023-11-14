@@ -5,8 +5,10 @@ export default function Hero() {
   const { t } = useTranslation();
   return (
     <section>
-      <h1>{t('Title')}</h1>
-      <p>{t('Test')}</p>
+      <div>
+        <h1>{t('Hero.Welcome')}</h1>
+        <h1>{t('Hero.Intro')}</h1>
+      </div>
     </section>
   );
 }

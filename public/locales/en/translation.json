@@ -1,6 +1,11 @@
 {
-  "Title": "Hello there! I'm Julian, web developer.",
-  "Test": "Test works",
+  "Hero": {
+    "Welcome": "Hello there!",
+    "Intro": "I'm Julian, Web Developer"
+  },
   "Projects" : "Projects",
-  "About": "About"
+  "About": {
+    "Title": "About",
+    "Content": "A passionate web developer, I build,maintain and deploy websites and web apps for a variety of clients, respecting professional standards whilst creating visually stunning websites."
+  }
 }

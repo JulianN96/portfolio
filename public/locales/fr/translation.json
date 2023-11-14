@@ -1,6 +1,11 @@
 {
-  "Title": "Bonjour! Je suis Julian, developpeur web.",
-  "Test": "Voici un test pour changer de langues",
+  "Hero": {
+    "Welcome": "Bonjour!",
+    "Intro": "Je suis Julian, developpeur web."
+  },
   "Projects" : "Projets",
-  "About": "Presentation"
+  "About": {
+    "Title": "Presentation",
+    "Content": "Passioné du domaine informatique et web, je crée, develope et maintien des sites et applications web modernes pour acqueillir toute demande."
+  }
 }

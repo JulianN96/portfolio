@@ -5,10 +5,15 @@
 //Base
 @import './base/base';
 //Components
-
+@import './components/languageSelector';
+@import './components/Reusable/buttons';
+@import './components/Reusable/largeCardComponent';
+@import './components/Reusable/tag';
+@import './components/Reusable/forms';
 //Layout
 @import './layout/navbar';
 
 //Pages
+@import './pages/homepage';
 
 //Themes

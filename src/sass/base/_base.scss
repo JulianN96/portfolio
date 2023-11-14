@@ -3,3 +3,9 @@ body{
   background-color: $colour-background;
   color: $colour-text;
 }
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

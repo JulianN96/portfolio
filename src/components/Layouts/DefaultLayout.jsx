@@ -6,9 +6,9 @@ import Footer from '../Sections/Footer'
 export default function DefaultLayout() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

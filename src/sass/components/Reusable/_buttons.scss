@@ -1,0 +1,13 @@
+.CTAButton{
+    padding: 0.5em 2em;
+    background-color: $colour-primary;
+    color: $colour-background;
+    border-radius: 6px;
+    transition: transform ease 0.2s, box-shadow ease 0.2s;
+    display: inline-block;
+    z-index: 2;
+    white-space: nowrap;
+    &:hover{
+      transform: translateY(5px);
+    }
+}

@@ -1,0 +1,97 @@
+.largeCardComponent {
+  background-color: $colour-secondary;
+  color: $colour-text;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px;
+  background-image: none;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 100%;
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 5px 22px,
+    rgba(0, 0, 0, 0.03) 0px 0px 0px 0.5px;
+
+  &__coverImage {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+  }
+  &__content {
+    padding: 0px 24px 32px;
+  }
+  &__image {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    object-fit: cover;
+    color: transparent;
+    text-indent: 10000px;
+    &Container {
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      margin-bottom: 16px;
+      margin-top: -50px;
+    }
+    &Avatar {
+      position: relative;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      flex-shrink: 0;
+      line-height: 1;
+      border-radius: 50%;
+      overflow: hidden;
+      user-select: none;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0px;
+      background-color: rgb(229, 231, 235);
+      color: rgb(0, 0, 0);
+      border: 3px solid rgb(255, 255, 255);
+      height: 100px;
+      width: 100px;
+    }
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__skillName, &__skillTime{
+    margin: 0;
+  }
+  &__divider{
+    border: solid $colour-text 0.5px;
+    margin: 1em;
+  }
+  &__tagContainer{
+      display: flex;
+      flex-flow: wrap;
+      -webkit-box-align: center;
+      align-items: center;
+      gap: 4px;
+      max-width: 100%;
+  }
+  &__Container{
+      width: 80%;
+      background-color: $colour-secondary;
+      padding: 2em 1em;
+      color: rgb(17, 25, 39);
+      transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      border: 1px solid rgb(242, 244, 247);
+      border-radius: 20px;
+      background-image: none;
+      overflow: hidden;
+      flex-flow: wrap;
+      min-width: 0px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      gap: 3em;
+  }
+}
