@@ -3,6 +3,7 @@ import Hero from '../components/Sections/Hero';
 import { useTranslation } from 'react-i18next';
 import Navbar from '../components/Sections/Navbar';
 import LargeCardComponent from '../components/LargeCardComponent';
+import Socials from '../components/Sections/Socials';
 
 import htmlicon from '../assets/images/icons/htmlicon.png';
 import cssicon from '../assets/images/icons/cssicon.png';
@@ -13,6 +14,7 @@ export default function Homepage() {
     <div className='homepage'>
       <Navbar />
       <Hero />
+      <Socials />
       <section className='homepage__about'>
         <h2>{t('About.Title')}</h2>
         <div className='homepage__aboutText'>
@@ -83,7 +85,6 @@ export default function Homepage() {
           <label className='form__label' for='message'>Message</label>
           <textarea className='form__input form__largeInput' name='message' required={true}></textarea>
         </form>
-
       </section>
     </div>
   );

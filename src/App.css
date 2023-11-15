@@ -40,6 +40,7 @@ html,
 body {
   background-color: #000000;
   color: #E5E7F0;
+  scroll-behavior: smooth;
 }
 
 section {
@@ -282,6 +283,76 @@ section {
 .navbar__menu a {
   color: #E5E7F0;
   text-decoration: none;
+}
+
+.socials {
+  max-height: 5vw;
+  position: sticky;
+  top: 20%;
+  left: 100%;
+  scale: 0.75;
+  transition: scale ease-in-out 200ms;
+}
+.socials:hover, .socials:focus {
+  scale: 1.25;
+}
+
+@keyframes bounce2 {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-12px);
+  }
+  40% {
+    transform: rotate(-30deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.socials-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+  padding: 0.5em;
+}
+
+@media (max-width: 737px) {
+  .social-list {
+    width: 60vw;
+  }
+}
+.social-list__link {
+  color: #48517A;
+  font-size: 1.5em;
+  font-weight: 800;
+  padding: 0.5em;
+  width: 100%;
+  height: 100%;
+}
+.social-list__icon:hover, .social-list__icon:active {
+  animation: bounce2 2000ms ease infinite;
+  cursor: pointer;
+}
+.social-list__item {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .homepage {
