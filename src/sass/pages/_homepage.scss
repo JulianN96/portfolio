@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
   &__experience{
     width: 100%;
     display: flex;
@@ -12,4 +13,30 @@
     width: 80%;
     text-align: center;
   }
+}
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 90%;
+  height: 90vh;
+  z-index: 1;
+  &__image{
+    border-radius: 50%;
+    width: 95%;
+    height: 95%;
+    &Container{
+      border-radius: 50%;
+      width:228px;
+      height: 228px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+    }
+  }
+  
 }

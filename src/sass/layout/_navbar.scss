@@ -3,6 +3,8 @@
   justify-content: space-between;
   padding: 1em 2em;
   width: 100%;
+  position: fixed;
+  z-index: 2;
   &__menu{
     width: 30%;
     display: flex;
@@ -11,5 +13,18 @@
       color: $colour-text;
       text-decoration: none;
     }
+    &Item{
+      z-index: 2;
+      transition: transform 200ms ease-in-out, scale 200ms ease-in-out;
+      &:hover, &:focus{
+        cursor: pointer;
+        transform: translateY(-5px);
+        scale: 1.2;
+        font-weight: 800;
+      }
+    }
+  }
+  &--scrolled{
+    @include glassEffect;
   }
 }

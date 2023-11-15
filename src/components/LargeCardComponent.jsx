@@ -12,11 +12,11 @@ export default function LargeCardComponent({avatarImage, backgroundImage, skillN
         <div className='largeCardComponent__imageContainer'>
           <div className='largeCardComponent__imageAvatar'>
             {/* <img className='largeCardComponent__image'src={ {avatarImage} }></img> */}
-            <img className='largeCardComponent__image'src={avatarImage}></img>
+            <img className='largeCardComponent__image'alt={skillName} src={avatarImage}></img>
           </div>
         </div>
         <div className='largeCardComponent__text'>
-          <h4 className='largeCardComponent__skillName'>{skillName}</h4>
+          <h3 className='largeCardComponent__skillName'>{skillName}</h3>
           <p className='largeCardComponent__skillTime'> {skillTime}</p>
         </div>
         <div className='largeCardComponent__divider'></div>

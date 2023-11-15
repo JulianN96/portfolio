@@ -7,15 +7,17 @@ import Socials from '../components/Sections/Socials';
 
 import htmlicon from '../assets/images/icons/htmlicon.png';
 import cssicon from '../assets/images/icons/cssicon.png';
+import BackgroundFX from '../components/BackgroundFX';
 
 export default function Homepage() {
   const { t } = useTranslation();
   return (
     <div className='homepage'>
+      <BackgroundFX />
       <Navbar />
       <Hero />
       <Socials />
-      <section className='homepage__about'>
+      <section className='homepage__about' id='about'>
         <h2>{t('About.Title')}</h2>
         <div className='homepage__aboutText'>
           <p>{t('About.Content')}</p>
@@ -75,15 +77,15 @@ export default function Homepage() {
         </h3>
         <form className='form__container'>
           <div className='form__inputContainer'>
-            <label className='form__label' for='name'>Name</label>
-            <input className='form__input' name='name' required={true} aria-autocomplete='name'></input>
+            <label className='form__label' for='contactName'>Name</label>
+            <input className='form__input' id='contactName' name='name' required={true} aria-autocomplete='name'></input>
           </div>
-          <label className='form__label' for='email'>Email Address</label>
-          <input className='form__input' name='email' required={true} aria-autocomplete='email'></input>
-          <label className='form__label' for='phone'>Phone Number</label>
-          <input className='form__input' name='phone' required={true} aria-autocomplete='tel'></input>
-          <label className='form__label' for='message'>Message</label>
-          <textarea className='form__input form__largeInput' name='message' required={true}></textarea>
+          <label className='form__label' for='contactemail'>Email Address</label>
+          <input className='form__input' id='contactemail' name='email' required={true} aria-autocomplete='email'></input>
+          <label className='form__label' for='contactphone'>Phone Number</label>
+          <input className='form__input' id='contactphone' name='phone' required={true} aria-autocomplete='tel'></input>
+          <label className='form__label' for='contactmessage'>Message</label>
+          <textarea className='form__input form__largeInput' id='contactmessage' name='message' required={true}></textarea>
         </form>
       </section>
     </div>
