@@ -8,6 +8,7 @@ import Socials from '../components/Sections/Socials';
 import htmlicon from '../assets/images/icons/htmlicon.png';
 import cssicon from '../assets/images/icons/cssicon.png';
 import BackgroundFX from '../components/BackgroundFX';
+import ProjectPreview from '../components/ProjectPreview';
 
 export default function Homepage() {
   const { t } = useTranslation();
@@ -69,6 +70,50 @@ export default function Homepage() {
       </section>
       <section className='homepage__projects' id='projects'>
         <h2 className='section__title'>{t('Projects')}</h2>
+        <div className='projects__container'>
+          <ProjectPreview 
+            title = 'Booki - Holiday Website'
+            date = 'August 2023'
+            previewImage={cssicon}
+            tags={['HTML', 'CSS']}
+            description='A project to display the effects of optimized HTML and responsive CSS Scripts'
+          />
+          <ProjectPreview 
+            title = 'Portfolio for Interior Designer'
+            date = 'September 2023'
+            previewImage={cssicon}
+            tags={['Javascript']}
+            description='A prebuilt website that needed a little TLC to improve overall performance and SEO visibility'
+          />
+          <ProjectPreview 
+            title = 'Project Planning for a Menu Maker'
+            date = 'September 2023'
+            previewImage={cssicon}
+            tags={['Javascript']}
+            description='I was bought on to organise the planning and execution of a dev team to develop a web app'
+          />
+          <ProjectPreview 
+            title = 'Nina Carducci - Photographer'
+            date = 'October 2023'
+            previewImage={cssicon}
+            tags={['Performance Optimization', 'SEO']}
+            description='A prebuilt website that needed a little TLC to improve overall performance and SEO visibility'
+          />
+          <ProjectPreview 
+            title = 'Housing Rental Site'
+            date = 'October 2023'
+            previewImage={cssicon}
+            tags={['React']}
+            description='A project to display the power of React and its reusable components rendered in this beautiful rental website'
+          />
+          <ProjectPreview 
+            title = 'Book Review Site'
+            date = 'November 2023'
+            previewImage={cssicon}
+            tags={['NodeJS', 'Express']}
+            description='With the front-end already built, my task was to build a functional backend for this library where users could submit, save and review their books'
+          />
+        </div>
       </section>
       <section className='homepage__contact' id='contact'>
         <h2 className='section__title'>Contact</h2>

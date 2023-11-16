@@ -1,0 +1,44 @@
+.projectPreview{
+  &__card{
+    background-color: $colour-primary;
+    color: $colour-text;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: max-height 400ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px;
+    background-image: none;
+    overflow: hidden;
+    border-radius: 20px;
+    min-height: 280px;
+    max-height: 575px;
+    width: 320px;
+    padding: 16px;
+    &:hover, &:focus{
+      cursor: pointer;
+      box-shadow: $bs-colour-accent;
+    }
+    &:hover .projectPreview__image{
+      max-height: 320px; 
+    }
+  }
+  &__image{
+      display: block;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      transition: max-height 200ms ease-in-out;
+      max-height: 0;
+      top: 0px;
+      width: 100%;
+  }
+  &__date{
+    margin: 1em 4px; 
+  }
+  &__title{
+    font-size: $fs-h4;
+    margin: 0 4px;
+    padding: 0;
+  }
+  &__description{
+    margin: 0 4px;
+  }
+}

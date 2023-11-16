@@ -9,9 +9,25 @@
     flex-direction: column;
     align-items: center;
   }
-  &__aboutText{
-    width: 80%;
-    text-align: center;
+  &__about{
+    background-color: $colour-background;
+    z-index: 1;
+    padding: 2em 0;
+    min-height: 40vh;
+    &Text{
+      width: 80%;
+      text-align: center;
+    }
+  }
+  &__contact{
+    z-index: 1;
+    margin-bottom: 4em;
+  }
+  &__projects{
+    margin: 4em 0;
+    z-index: 1;
+    background-color: $colour-background;
+    width: 100%;
   }
 }
 
@@ -38,5 +54,17 @@
       background-color: white;
     }
   }
-  
+}
+
+.projects__container{
+
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));;
+  gap: 4em 2em;
+  overflow: hidden;
+  align-self: flex-start;
+  margin: 2em 1em;
 }
