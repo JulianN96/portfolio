@@ -9,6 +9,12 @@ import htmlicon from '../assets/images/icons/htmlicon.png';
 import cssicon from '../assets/images/icons/cssicon.png';
 import BackgroundFX from '../components/BackgroundFX';
 import ProjectPreview from '../components/ProjectPreview';
+import bookiPreview from '../assets/images/projectImages/previews/booki2.png';
+import sophieBluelPreview from '../assets/images/projectImages/previews/sophiebluel.png';
+import menumakerPreview from '../assets/images/projectImages/previews/menumaker.png';
+import ninacarducciPreview from '../assets/images/projectImages/previews/ninacarducci.png';
+import kasaPreview from '../assets/images/projectImages/previews/kasa.png';
+import p7Preview from '../assets/images/projectImages/previews/p7code.png';
 
 export default function Homepage() {
   const { t } = useTranslation();
@@ -74,43 +80,43 @@ export default function Homepage() {
           <ProjectPreview 
             title = 'Booki - Holiday Website'
             date = 'August 2023'
-            previewImage={cssicon}
+            previewImage={bookiPreview}
             tags={['HTML', 'CSS']}
             description='A project to display the effects of optimized HTML and responsive CSS Scripts'
           />
           <ProjectPreview 
             title = 'Portfolio for Interior Designer'
             date = 'September 2023'
-            previewImage={cssicon}
+            previewImage={sophieBluelPreview}
             tags={['Javascript']}
             description='A prebuilt website that needed a little TLC to improve overall performance and SEO visibility'
           />
           <ProjectPreview 
             title = 'Project Planning for a Menu Maker'
             date = 'September 2023'
-            previewImage={cssicon}
-            tags={['Javascript']}
+            previewImage={menumakerPreview}
+            tags={['Project Managment', 'Agile Methodologies']}
             description='I was bought on to organise the planning and execution of a dev team to develop a web app'
           />
           <ProjectPreview 
             title = 'Nina Carducci - Photographer'
             date = 'October 2023'
-            previewImage={cssicon}
+            previewImage={ninacarducciPreview}
             tags={['Performance Optimization', 'SEO']}
             description='A prebuilt website that needed a little TLC to improve overall performance and SEO visibility'
           />
           <ProjectPreview 
             title = 'Housing Rental Site'
             date = 'October 2023'
-            previewImage={cssicon}
-            tags={['React']}
+            previewImage={kasaPreview}
+            tags={['React', 'Sass']}
             description='A project to display the power of React and its reusable components rendered in this beautiful rental website'
           />
           <ProjectPreview 
             title = 'Book Review Site'
             date = 'November 2023'
-            previewImage={cssicon}
-            tags={['NodeJS', 'Express']}
+            previewImage={p7Preview}
+            tags={['NodeJS', 'Express', 'MongoDB']}
             description='With the front-end already built, my task was to build a functional backend for this library where users could submit, save and review their books'
           />
         </div>
