@@ -1,0 +1,78 @@
+.modal {
+  background-color: $colour-secondary;
+  position: fixed;
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  z-index: 9;
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  &Close {
+    position: sticky;
+    margin-top: 2em;
+    left: 95%;
+    outline: 0px;
+    border: 0px;
+    margin: 10px;
+    cursor: pointer;
+    line-height: 1.75;
+    min-width: 64px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: $colour-text;
+    border-radius: 12px;
+    padding: 6px 16px;
+    background-color: $colour-secondary;
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      background-color: $colour-accent;
+      box-shadow: $bs-colour-accent;
+    }
+  }
+}
+
+.Overlay {
+  position: fixed;
+  background-color: purple;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+}
+
+.projectModal {
+  display: flex;
+  flex-direction: column;
+  color: $colour-text;
+  padding: 16px;
+  &__image {
+    width: 49%;
+  }
+  &__firstContainer {
+    display: flex;
+    gap: 2em;
+  }
+  &__secondContainer{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));;
+    gap: 2em .5em;
+    overflow: hidden;
+    align-self: flex-start;
+    margin: 1em 1em;
+  }
+  &__exampleImages{
+    width: 90%;
+    transition: scale 200ms ease-in-out;
+    &:hover, &:focus{
+      position: absolute;
+      z-index: 11;
+      transform: translateY(50px);
+      scale: (.7);
+    }
+  }
+}
