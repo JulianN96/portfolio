@@ -38,8 +38,8 @@ small {
 
 html,
 body {
-  background-color: #000000;
-  color: #E5E7F0;
+  background-color: #01181e;
+  color: #ffffff;
   scroll-behavior: smooth;
 }
 
@@ -73,13 +73,13 @@ html {
 }
 
 .backgroundFX::before {
-  text-shadow: 1.5297130263em 0.8286529491em 7px hsla(6.5210937799, 100%, 50%, 0.9), 1.9552564046em 0.1469802072em 7px hsla(36.6207204244, 100%, 50%, 0.9), 2.2063615621em 1.6730820754em 7px hsla(47.9806403215, 100%, 50%, 0.9), 1.9727598276em 2.2393096007em 7px hsla(10.9550536338, 100%, 50%, 0.9), 0.0697369146em 2.1301644719em 7px hsla(4.6310411616, 100%, 50%, 0.9), -0.2537993601em 1.6331424853em 7px hsla(1.9577304137, 100%, 50%, 0.9), -0.3836001em 0.0085855097em 7px hsla(23.1973012049, 100%, 50%, 0.9), 2.4274629267em 0.62972138em 7px hsla(35.7216130779, 100%, 50%, 0.9), 0.9838386738em 0.0423000691em 7px hsla(19.4775533719, 100%, 50%, 0.9), 1.1098052626em 2.2946211164em 7px hsla(32.8355956642, 100%, 50%, 0.9), -0.4775240614em -0.4552937753em 7px hsla(5.0058490505, 100%, 50%, 0.9), 2.3008152099em -0.3766226822em 7px hsla(47.1641187786, 100%, 50%, 0.9), -0.3545287965em 1.1257278207em 7px hsla(45.3622188086, 100%, 50%, 0.9), 0.5677367066em 0.1162291278em 7px hsla(33.7253735201, 100%, 50%, 0.9), 1.7880081018em 0.6632408083em 7px hsla(28.3844542029, 100%, 50%, 0.9), 2.2162405558em -0.2828757557em 7px hsla(49.8552324727, 100%, 50%, 0.9), -0.265908959em 0.8520967809em 7px hsla(46.4989456941, 100%, 50%, 0.9), 2.0930370989em 2.1942849775em 7px hsla(40.0866804079, 100%, 50%, 0.9), 2.1962651519em 2.1843994161em 7px hsla(45.0303071538, 100%, 50%, 0.9), -0.2628758816em 0.9636161886em 7px hsla(4.6666643273, 100%, 50%, 0.9), 0.3406962781em 0.2931027691em 7px hsla(38.5893389935, 100%, 50%, 0.9), -0.4618752522em 1.0855378829em 7px hsla(14.2395842097, 100%, 50%, 0.9), 2.2017541507em -0.1629902013em 7px hsla(48.7975359801, 100%, 50%, 0.9), 1.1542600657em -0.2198606537em 7px hsla(43.2963507107, 100%, 50%, 0.9), 1.5206598278em 2.4058360544em 7px hsla(3.7797050726, 100%, 50%, 0.9), 0.5008890728em 2.3076257692em 7px hsla(18.7767675814, 100%, 50%, 0.9), 0.2812977318em 1.2796348482em 7px hsla(5.0205278389, 100%, 50%, 0.9), 1.5073735041em 2.4883768456em 7px hsla(38.2879648417, 100%, 50%, 0.9), 2.3838030581em 1.7578756623em 7px hsla(26.5717968044, 100%, 50%, 0.9), 1.1196993924em 0.8034750554em 7px hsla(46.0431340778, 100%, 50%, 0.9), 2.4284338319em 0.2796574769em 7px hsla(27.5812638535, 100%, 50%, 0.9), 2.3718198166em 1.9432333674em 7px hsla(0.7606276913, 100%, 50%, 0.9), 0.3478132278em 2.3674801873em 7px hsla(16.3715835482, 100%, 50%, 0.9), 0.9681424566em 2.4219444429em 7px hsla(13.0589233422, 100%, 50%, 0.9), 0.4925206665em 0.9281738173em 7px hsla(39.8322099499, 100%, 50%, 0.9), 0.2769243499em 2.4226767209em 7px hsla(38.5135322368, 100%, 50%, 0.9), 1.4771412307em 0.1399329981em 7px hsla(38.6847516577, 100%, 50%, 0.9), 0.4881961264em 0.2629571529em 7px hsla(32.3638718804, 100%, 50%, 0.9), 0.3688721711em -0.1403150766em 7px hsla(19.5922803332, 100%, 50%, 0.9), -0.2701137978em 0.5100423571em 7px hsla(42.6027096704, 100%, 50%, 0.9), 1.7578850864em 0.0426381371em 7px hsla(15.4516117639, 100%, 50%, 0.9);
+  text-shadow: 2.1352477251em -0.1378257963em 7px hsla(210.5386363697, 100%, 50%, 0.9), 2.1479875677em 1.8883444752em 7px hsla(253.8153963157, 100%, 50%, 0.9), 0.244218048em 0.5034586991em 7px hsla(273.4398107104, 100%, 50%, 0.9), 0.9165198448em 0.1078593609em 7px hsla(243.1900161172, 100%, 50%, 0.9), 1.985951258em 0.9572701849em 7px hsla(249.8059611754, 100%, 50%, 0.9), 2.4183195758em 2.1695434078em 7px hsla(257.7439372009, 100%, 50%, 0.9), 1.7458768409em -0.3570975806em 7px hsla(224.8973315656, 100%, 50%, 0.9), 1.9591618362em 0.208949621em 7px hsla(242.0816722378, 100%, 50%, 0.9), 0.4271259655em 0.3140491422em 7px hsla(256.0748162635, 100%, 50%, 0.9), 2.392332638em 2.4686562476em 7px hsla(296.7449305678, 100%, 50%, 0.9), 0.0450678381em 2.3708291694em 7px hsla(279.5074352035, 100%, 50%, 0.9), 0.8037632632em -0.0802784463em 7px hsla(243.9458040553, 100%, 50%, 0.9), 0.7347110129em 0.0649887909em 7px hsla(215.6963162714, 100%, 50%, 0.9), -0.4707785476em 2.0994027734em 7px hsla(292.572250372, 100%, 50%, 0.9), 0.9881787223em 0.883900365em 7px hsla(250.1341883439, 100%, 50%, 0.9), -0.0404003316em -0.4732838946em 7px hsla(210.6636314746, 100%, 50%, 0.9), -0.1307395605em -0.2414514755em 7px hsla(244.673067136, 100%, 50%, 0.9), -0.2288091955em -0.0168174632em 7px hsla(240.2400773536, 100%, 50%, 0.9), -0.3526203893em 1.8090971763em 7px hsla(261.8853013941, 100%, 50%, 0.9), 1.3852542529em 0.2467284803em 7px hsla(205.4759331681, 100%, 50%, 0.9), 1.9840927901em 1.6995424269em 7px hsla(222.122816039, 100%, 50%, 0.9), -0.4019060573em 0.3671415351em 7px hsla(200.3608137974, 100%, 50%, 0.9), 0.0317373485em -0.2553095017em 7px hsla(290.6652071348, 100%, 50%, 0.9), 2.3572671625em 1.8749086206em 7px hsla(243.1401889322, 100%, 50%, 0.9), 2.4735707101em 1.15774755em 7px hsla(285.3506048544, 100%, 50%, 0.9), 1.6887200816em 2.2027534928em 7px hsla(214.5039495675, 100%, 50%, 0.9), -0.1705228543em -0.4897331383em 7px hsla(211.9164587225, 100%, 50%, 0.9), 1.276888563em 0.9903815846em 7px hsla(244.9838353157, 100%, 50%, 0.9), 1.2693780441em 0.6794633289em 7px hsla(241.4736937945, 100%, 50%, 0.9), 2.431670173em 1.9439978309em 7px hsla(256.8842736642, 100%, 50%, 0.9), 2.346803559em 0.9028926186em 7px hsla(294.0739924815, 100%, 50%, 0.9), 1.8185466268em 1.932993166em 7px hsla(280.8356376693, 100%, 50%, 0.9), -0.0503529955em 1.6453031447em 7px hsla(283.6891326793, 100%, 50%, 0.9), 1.1547966918em 1.3896559397em 7px hsla(231.0410068841, 100%, 50%, 0.9), 2.0991264116em 1.5095994087em 7px hsla(243.0579554546, 100%, 50%, 0.9), 2.2525197933em -0.1182084172em 7px hsla(225.1135771279, 100%, 50%, 0.9), 2.1059787554em 2.2798555313em 7px hsla(279.6739336397, 100%, 50%, 0.9), 0.2175342235em 2.1653003996em 7px hsla(200.6432756751, 100%, 50%, 0.9), 0.9395214059em 0.9771300631em 7px hsla(269.7069372359, 100%, 50%, 0.9), 0.5235862515em 1.1532826688em 7px hsla(279.3054707948, 100%, 50%, 0.9), 2.3197604584em 1.1948474571em 7px hsla(207.000315421, 100%, 50%, 0.9);
   animation-duration: 44s;
   animation-delay: -27s;
 }
 
 .backgroundFX::after {
-  text-shadow: -0.3369629145em -0.3943505005em 7px hsla(30.2988864433, 100%, 50%, 0.9), 0.5069419553em 0.1765063882em 7px hsla(20.915079286, 100%, 50%, 0.9), 1.2488953279em 0.2335322211em 7px hsla(12.0928203294, 100%, 50%, 0.9), 1.8790417133em 0.0978024387em 7px hsla(22.5145849232, 100%, 50%, 0.9), 2.0994326885em 2.3686827491em 7px hsla(10.2856106521, 100%, 50%, 0.9), 0.9944259225em 0.7918237966em 7px hsla(0.7792119467, 100%, 50%, 0.9), -0.2005054518em 1.455220486em 7px hsla(34.9362912945, 100%, 50%, 0.9), 0.8183866952em 0.3816247714em 7px hsla(7.0634551246, 100%, 50%, 0.9), 1.7094864225em 0.8028383137em 7px hsla(23.2887127577, 100%, 50%, 0.9), 2.2232482216em 0.6739753421em 7px hsla(16.5144911213, 100%, 50%, 0.9), -0.0165357228em 2.0128495707em 7px hsla(43.5048826404, 100%, 50%, 0.9), -0.4406584309em 0.2909911622em 7px hsla(21.0685502201, 100%, 50%, 0.9), 0.5151830288em 0.8858173945em 7px hsla(12.3722858662, 100%, 50%, 0.9), 2.1833161161em 0.7688006347em 7px hsla(6.8593542006, 100%, 50%, 0.9), 0.2896527223em -0.2353291042em 7px hsla(1.3052959775, 100%, 50%, 0.9), 0.3862520544em -0.071696134em 7px hsla(32.3850738558, 100%, 50%, 0.9), 1.1264704627em -0.1976910064em 7px hsla(48.4135472425, 100%, 50%, 0.9), 1.7899084724em 0.1312772054em 7px hsla(37.1139543305, 100%, 50%, 0.9), 1.3451245148em 0.1773579494em 7px hsla(17.984479495, 100%, 50%, 0.9), 1.1438153669em 0.3454761251em 7px hsla(9.3971845808, 100%, 50%, 0.9), 0.082175em -0.2009244167em 7px hsla(1.6227110294, 100%, 50%, 0.9), -0.2060041304em 0.9614589558em 7px hsla(30.7728944389, 100%, 50%, 0.9), -0.3006153327em 1.7934973155em 7px hsla(21.6389103908, 100%, 50%, 0.9), 0.6600038328em 1.2530759336em 7px hsla(49.699521276, 100%, 50%, 0.9), 1.9864802655em 0.0817364845em 7px hsla(22.9500267663, 100%, 50%, 0.9), 0.3874178151em 1.7760152761em 7px hsla(22.5593565498, 100%, 50%, 0.9), 0.0528839658em 2.1688261317em 7px hsla(49.4543563957, 100%, 50%, 0.9), -0.0123961395em -0.1118586207em 7px hsla(44.7048540321, 100%, 50%, 0.9), 0.3585363209em -0.2982053506em 7px hsla(18.3779419956, 100%, 50%, 0.9), 1.144820248em 0.2961713919em 7px hsla(5.0556351964, 100%, 50%, 0.9), 0.6516140294em 0.26687976em 7px hsla(12.0917804275, 100%, 50%, 0.9), 2.4098414846em -0.3215577156em 7px hsla(22.3212273148, 100%, 50%, 0.9), -0.2586604069em 1.1477911169em 7px hsla(34.7105870419, 100%, 50%, 0.9), 1.5091017201em 1.1400994899em 7px hsla(5.7781114491, 100%, 50%, 0.9), -0.2011956361em 0.6723643703em 7px hsla(5.5334113801, 100%, 50%, 0.9), -0.080785981em 0.2454538346em 7px hsla(15.1956100385, 100%, 50%, 0.9), 0.7013249688em 0.8424110474em 7px hsla(42.0292005698, 100%, 50%, 0.9), 2.3099223224em 2.1699062071em 7px hsla(47.9957877118, 100%, 50%, 0.9), 1.7080168715em 1.4494473704em 7px hsla(22.2611631218, 100%, 50%, 0.9), 0.0583082326em 1.8085707202em 7px hsla(27.589198344, 100%, 50%, 0.9), 0.578196556em 1.5118378926em 7px hsla(34.2195293074, 100%, 50%, 0.9);
+  text-shadow: 1.5765806358em -0.4575354895em 7px hsla(291.5108483708, 100%, 50%, 0.9), 0.2711718046em -0.2278277622em 7px hsla(233.6781382911, 100%, 50%, 0.9), -0.2058781347em 1.8749489265em 7px hsla(268.3712659737, 100%, 50%, 0.9), 2.1196794726em 0.0040490714em 7px hsla(297.3456865986, 100%, 50%, 0.9), 1.8941988179em 0.7143377032em 7px hsla(206.0436444665, 100%, 50%, 0.9), -0.1859453514em 0.2450994842em 7px hsla(236.4079173851, 100%, 50%, 0.9), 1.5284956019em 1.7855454206em 7px hsla(253.9753304905, 100%, 50%, 0.9), 0.4037424385em 0.6117647652em 7px hsla(221.7390554213, 100%, 50%, 0.9), 1.4884988379em 1.9368935777em 7px hsla(259.9589109019, 100%, 50%, 0.9), 1.1515036296em 0.2179018829em 7px hsla(276.1814766872, 100%, 50%, 0.9), 2.1031146502em 1.7282096041em 7px hsla(210.7781586975, 100%, 50%, 0.9), 1.8792704698em 1.2299852118em 7px hsla(282.8999584829, 100%, 50%, 0.9), 0.3492825253em 2.1430678933em 7px hsla(291.7013199628, 100%, 50%, 0.9), -0.2959103219em -0.3665379498em 7px hsla(297.2433791948, 100%, 50%, 0.9), -0.3300226968em 0.1671525742em 7px hsla(267.4167347594, 100%, 50%, 0.9), 2.4189877847em 2.1236941363em 7px hsla(265.8479041608, 100%, 50%, 0.9), 0.883391144em -0.1243662854em 7px hsla(265.9983038418, 100%, 50%, 0.9), 0.7757079212em 2.3722629042em 7px hsla(282.8061257602, 100%, 50%, 0.9), 0.8392227879em -0.1966583537em 7px hsla(209.241729791, 100%, 50%, 0.9), 0.6486475789em 2.2817635287em 7px hsla(270.9590700811, 100%, 50%, 0.9), -0.1731923249em -0.1308694599em 7px hsla(215.798511213, 100%, 50%, 0.9), 0.0038623036em 0.3954652458em 7px hsla(248.6681711863, 100%, 50%, 0.9), 1.3606818964em 0.8726964921em 7px hsla(277.4022123664, 100%, 50%, 0.9), 0.6249674293em 2.3196498434em 7px hsla(238.6568999655, 100%, 50%, 0.9), 1.0487257553em 2.1924500509em 7px hsla(213.4884031226, 100%, 50%, 0.9), 0.4430284229em -0.2191307325em 7px hsla(247.1099406056, 100%, 50%, 0.9), 2.2639758057em 1.7636250217em 7px hsla(265.0534695239, 100%, 50%, 0.9), 0.0741523533em 1.4009817377em 7px hsla(232.5356096735, 100%, 50%, 0.9), 1.062627597em 1.4431747623em 7px hsla(210.2607277595, 100%, 50%, 0.9), -0.390641434em 1.3730021297em 7px hsla(201.4219711133, 100%, 50%, 0.9), -0.0274932252em 0.4930555215em 7px hsla(209.7952294158, 100%, 50%, 0.9), 2.1409930023em -0.0402973153em 7px hsla(297.8263525307, 100%, 50%, 0.9), 0.2533401062em 0.1273527961em 7px hsla(223.6541782183, 100%, 50%, 0.9), 0.1225990897em 1.686650765em 7px hsla(263.8403317351, 100%, 50%, 0.9), 2.4941473843em -0.2329602398em 7px hsla(271.2515040851, 100%, 50%, 0.9), 1.7436610905em -0.4309066353em 7px hsla(215.635950239, 100%, 50%, 0.9), 2.0354571199em -0.254074731em 7px hsla(293.3924095564, 100%, 50%, 0.9), -0.3384673733em 0.0187058951em 7px hsla(218.5542113592, 100%, 50%, 0.9), 0.5567117982em 2.2162156961em 7px hsla(247.0418187574, 100%, 50%, 0.9), 1.6945895472em 1.5391749477em 7px hsla(292.3527118364, 100%, 50%, 0.9), -0.0236774383em -0.400128556em 7px hsla(293.6484075904, 100%, 50%, 0.9);
   animation-duration: 43s;
   animation-delay: -32s;
 }
@@ -96,7 +96,7 @@ html {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4375em;
-  color: #E5E7F0;
+  color: #ffffff;
   box-sizing: border-box;
   cursor: text;
   display: inline-flex;
@@ -104,7 +104,7 @@ html {
   align-items: center;
   width: 100px;
   position: relative;
-  background-color: #131520;
+  background-color: #022631;
   border-radius: 8px;
   border-style: solid;
   border-width: 1px;
@@ -119,8 +119,8 @@ html {
 
 .CTAButton {
   padding: 0.5em 2em;
-  background-color: #48517A;
-  color: #000000;
+  background-color: #5931dd;
+  color: #01181e;
   border-radius: 6px;
   transition: transform ease 0.2s, box-shadow ease 0.2s;
   display: inline-block;
@@ -129,11 +129,12 @@ html {
 }
 .CTAButton:hover {
   transform: translateY(5px);
+  cursor: pointer;
 }
 
 .largeCardComponent {
-  background-color: #131520;
-  color: #E5E7F0;
+  background-color: #5931dd;
+  color: #ffffff;
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px;
   background-image: none;
@@ -199,7 +200,7 @@ html {
   margin: 0;
 }
 .largeCardComponent__divider {
-  border: solid #E5E7F0 0.5px;
+  border: solid #ffffff 0.5px;
   margin: 1em;
 }
 .largeCardComponent__tagContainer {
@@ -212,7 +213,7 @@ html {
 }
 .largeCardComponent__Container {
   width: 80%;
-  background-color: #131520;
+  background-color: #022631;
   padding: 2em 1em;
   color: rgb(17, 25, 39);
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -238,7 +239,7 @@ html {
   -webkit-box-pack: center;
   justify-content: center;
   height: 32px;
-  color: #E5E7F0;
+  color: #ffffff;
   border-radius: 16px;
   white-space: nowrap;
   transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -267,7 +268,7 @@ html {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4375em;
-  color: #E5E7F0;
+  color: #ffffff;
   padding: 25px 12px 8px;
   box-sizing: border-box;
   font-family: monospace;
@@ -289,7 +290,7 @@ html {
   height: 200px;
 }
 .form__label {
-  color: #E5E7F0;
+  color: #ffffff;
   line-height: 1.4375em;
   padding: 0px;
   font-size: 14px;
@@ -316,8 +317,8 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #48517A;
-  color: #E5E7F0;
+  background-color: #5931dd;
+  color: #ffffff;
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   transition: max-height 400ms ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px;
@@ -331,7 +332,7 @@ html {
 }
 .projectPreview__card:hover, .projectPreview__card:focus {
   cursor: pointer;
-  box-shadow: 0 0 20px #5E6BA1;
+  box-shadow: 0 0 20px #6c56b3;
 }
 .projectPreview__card:hover .projectPreview__image {
   max-height: 320px;
@@ -364,6 +365,49 @@ html {
   margin: 0 4px;
 }
 
+.servicesCard {
+  background-color: rgb(255, 255, 255);
+  color: rgb(17, 25, 39);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px;
+  background-image: none;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 100%;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 25%;
+}
+.servicesCard__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.servicesCard__text {
+  text-align: center;
+  z-index: 2;
+}
+.servicesCard__image {
+  width: 90%;
+  z-index: 2;
+  margin: 2em 0;
+  aspect-ratio: 1/1;
+}
+.servicesCard__button {
+  max-width: 120px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.servicesCard__buttonContainer {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -378,7 +422,7 @@ html {
   justify-content: space-evenly;
 }
 .navbar__menu a {
-  color: #E5E7F0;
+  color: #ffffff;
   text-decoration: none;
 }
 .navbar__menuItem {
@@ -452,7 +496,7 @@ html {
   }
 }
 .social-list__link {
-  color: #48517A;
+  color: #5931dd;
   font-size: 1.5em;
   font-weight: 800;
   padding: 0.5em;
@@ -473,7 +517,7 @@ html {
 }
 
 .modal {
-  background-color: #131520;
+  background-color: #022631;
   position: fixed;
   width: 90%;
   height: 90%;
@@ -495,15 +539,15 @@ html {
   line-height: 1.75;
   min-width: 64px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  color: #E5E7F0;
+  color: #ffffff;
   border-radius: 12px;
   padding: 6px 16px;
-  background-color: #131520;
+  background-color: #022631;
 }
 .modalClose:hover, .modalClose:focus {
   cursor: pointer;
-  background-color: #5E6BA1;
-  box-shadow: 0 0 20px #5E6BA1;
+  background-color: #6c56b3;
+  box-shadow: 0 0 20px #6c56b3;
 }
 
 .Overlay {
@@ -517,7 +561,7 @@ html {
 .projectModal {
   display: flex;
   flex-direction: column;
-  color: #E5E7F0;
+  color: #ffffff;
   padding: 16px;
 }
 .projectModal__image {
@@ -562,7 +606,7 @@ html {
   align-items: center;
 }
 .homepage__about {
-  background-color: #000000;
+  background-color: #01181e;
   z-index: 1;
   padding: 2em 0;
   min-height: 40vh;
@@ -579,7 +623,7 @@ html {
 .homepage__projects {
   margin: 4em 0;
   z-index: 1;
-  background-color: #000000;
+  background-color: #01181e;
   width: 100%;
   display: flex;
   align-items: center;
@@ -621,6 +665,10 @@ html {
   overflow: hidden;
   margin: 2em 1em;
   padding: 0 2em;
+}
+
+.section__title {
+  z-index: 1;
 }
 
 /*# sourceMappingURL=App.css.map */

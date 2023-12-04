@@ -10,14 +10,14 @@ import { useTranslation } from 'react-i18next';
 
 // const { t } = useTranslation();
 
-export const projectsDataEn = [
+export const projectsDataFr = [
   {
-    title: 'Booki - Holiday Website',
-    date: 'August 2023',
+    title: 'Booki - Site de Vacances',
+    date: 'Aout 2023',
     images: [
       {
         image: p2preview,
-        alt: 'Preview of the Booki Website'
+        alt: 'Apercu de Booki Website'
       },
       {
         image: p3image1,
@@ -29,15 +29,15 @@ export const projectsDataEn = [
       },
     ],
     tags: ['HTML', 'CSS'],
-    description: 'A project to display the effects of optimized HTML and responsive CSS Scripts'
+    description: "Un projet pour montrer l'éfficacité d'un code HTML et CSS Optimizé et moderne"
   },
   {
-    title: 'Portfolio for Interior Designer',
+    title: 'Portfolio pour Designer Architecte',
     date: 'September 2023',
     images: [
       {
         image: p3preview,
-        alt: 'Preview of the Portfolio Website'
+        alt: 'Apercu de  Portfolio Website'
       },
       {
         image: p3image1,
@@ -49,15 +49,15 @@ export const projectsDataEn = [
       },
     ],
     tags: ['Javascript'],
-    description: 'A project to implement the javascript functionality of a portfolio website'
+    description: 'Un projet poiur créer la structure javascript pour un portfolio.'
   },
   {
-    title: 'Project Planning for a Menu Maker',
-    date: 'September 2023',
+    title: 'Plannification de projet pour un Menu Maker',
+    date: 'Septembre 2023',
     images: [
       {
         image: p4preview,
-        alt: 'Preview of the MenuMaker Website'
+        alt: 'Apercu de MenuMaker Website'
       },
       {
         image: p3image1,
@@ -68,12 +68,12 @@ export const projectsDataEn = [
         alt: 'Sophie Bluel Website Login Design',
       },
     ],
-    tags: ['Project Managment', 'Agile Methodologies'],
-    description: 'I was bought on to organise the planning and execution of a dev team to develop a web app'
+    tags: ['Managment de Projet', 'Methodologies Agile'],
+    description: "J'ai organisé le planning et execution d'une équipe de developpeurs pour la creation d'un web app"
   },
   {
-    title: 'Nina Carducci - Photographer',
-    date: 'October 2023',
+    title: 'Nina Carducci - Photographe',
+    date: 'Octobre 2023',
     images: [
       {
         image: p5preview,
@@ -89,11 +89,11 @@ export const projectsDataEn = [
       },
     ],
     tags: ['Performance Optimization', 'SEO'],
-    description: 'A prebuilt website that needed a little TLC to improve overall performance and SEO visibility'
+    description: "Un site de photographe deja crée avais besoin d'une optimization de performance et visibilité"
   },
   {
-    title: 'Housing Rental Site',
-    date: 'October 2023',
+    title: 'Kasa - Site de location',
+    date: 'Octobre 2023',
     images: [
       {
         image: p6preview,
@@ -109,11 +109,11 @@ export const projectsDataEn = [
       },
     ],
     tags: ['React', 'Sass'],
-    description: 'A project to display the power of React and its reusable components rendered in this beautiful rental website'
+    description: 'Un projet pour démontrer la puissance de React et ses composant réutilisables sur ce site magnifique'
   },
   {
-    title: 'Book Review Site',
-    date: 'November 2023',
+    title: 'Mon Vieux Grimoire',
+    date: 'Novembre 2023',
     images: [
       {
         image: p7preview,
@@ -129,6 +129,6 @@ export const projectsDataEn = [
       },
     ],
     tags: ['NodeJS', 'Express', 'MongoDB'],
-    description: 'With the front-end already built, my task was to build a functional backend for this library where users could submit, save and review their books'
+    description: 'Avec un Front déja construit, ma mission était de monter un système back-end pour le site.'
   },
 ];

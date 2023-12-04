@@ -2,17 +2,21 @@ import React from 'react';
 import Tag from './Tag';
 export default function LargeCardComponent({
   avatarImage,
-  backgroundImage,
+  backgroundI,
   skillName,
   skillTime,
   tags,
 }) {
+
+  console.log(tags)
   return (
     <div className='largeCardComponent'>
       <div
-        className='largeCardComponent__coverImage'
-        style={(backgroundImage = { backgroundImage })}
-      ></div>
+        className=''
+        style={{ background: `url(${backgroundI}) no-repeat center`}}
+      >
+        <img className='largeCardComponent__coverImage' src={backgroundI}/>
+      </div>
       <div className='largeCardComponent__content'>
         <div className='largeCardComponent__imageContainer'>
           <div className='largeCardComponent__imageAvatar'>

@@ -7,5 +7,29 @@
   "About": {
     "Title": "About",
     "Content": "A passionate web developer, I build,maintain and deploy websites and web apps for a variety of clients, respecting professional standards whilst creating visually stunning websites."
-  }
+  },
+  "ExperienceCards":{
+    "HTML":[
+      "Content Integration",
+      "SEO Optimization"
+    ]
+  },  
+  "Months": "Months",
+  "Year": "Year",
+  "Years": "Years",
+  "Services": {
+    "Website_Creation":{
+      "title": "Website Creation",
+      "description": "Do you need a portfolio website, an ecommerce for your business or maybe a whole business managament tool? I can design and bring to life custom solution which scales to your needs."
+    },
+    "Website_Optimization":{
+      "title": "Website Optimization",
+      "description": "Already have a website but feel like it needs a bit of refreshing to keep up with modern competitor sites? Or do you need a new solution added to your existing website. We can work together to make your online presence shine."
+    },
+    "Domain_Management":{
+      "title": "Domain Management",
+      "description": "When working together you dont need to worry about domain management or maintenance. I take care of all aspects of the tech side so you don't have to worry."
+    }
+  },
+  "Contact": "Let's start a project together! Contact me here:"
 }

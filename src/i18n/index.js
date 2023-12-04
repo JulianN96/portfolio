@@ -6,7 +6,7 @@ i18next
   .use(initReactI18next)
   .use(Backend)
   .init({
-    lng: 'en',
+    lng: localStorage.getItem("lang"),
     debug: true,
     fallBackLng: 'fr',
     interpolation: {

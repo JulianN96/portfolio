@@ -61,7 +61,6 @@
 }
 
 .projects__container{
-
   min-height: 800px;
   width: 90%;
   display: grid;
@@ -72,4 +71,8 @@
   overflow: hidden;
   margin: 2em 1em;
   padding: 0 2em;
+}
+
+.section__title{
+  z-index: 1;
 }

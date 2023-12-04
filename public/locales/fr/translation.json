@@ -7,5 +7,36 @@
   "About": {
     "Title": "Presentation",
     "Content": "Passioné du domaine informatique et web, je crée, develope et maintien des sites et applications web modernes pour acqueillir toute demande."
-  }
+  },
+  "ExperienceCards":{
+    "HTML":{
+      "0": "Integration du Contenu",
+      "1": "Optimization SEO"
+    }
+  },
+  "ProjectData":{
+    "Project1": {
+      "title": "Booki - Holiday Website",
+      "date": "August 2023",
+      "description": "A project to display the effects of optimized HTML and responsive CSS Scripts"
+    }
+  },
+  "Months": "Mois",
+  "Year": "Année",
+  "Years": "Années",
+  "Services": {
+    "Website_Creation":{
+      "title": "Creation de Site Web",
+      "description": "Vous avez besoin d'un site pour votre portfolio ou entreprise? Ne cherchez pas plus loin! Je peux créer votre site avec les specifications et fonctionalités que vous imaginez."
+    },
+    "Website_Optimization":{
+      "title": " Optimization de Site Web",
+      "description": "Vous avez deja un site qui a besoin d'un nouveau look pour ce rendre moderne et faire face a la concurence? Ou peut etre vous avez besoin de nouvelles fonctionalités sur votre site. On peut travailler ensemble pour que votre site se demarque des autres!"
+    },
+    "Domain_Management":{
+      "title": "Domain Management",
+      "description": "Quand on travaille ensemble, vous n'avez pas besoin de vous inqueter de la gestion du domaine ou du deploiement. Je m'occupe de tout aspects technologiques du site pour vous!"
+    }
+  },
+  "Contact": "Commençons un projet ensemble! Envoyez moi un message ici:"
 }

@@ -1,16 +1,47 @@
-//Colour Palette
+//Colour Palette Monochrome
 $colour-primary:  #48517A;
 $colour-secondary: #131520;
-
 $colour-accent:  #5E6BA1;
 $colour-text:  #E5E7F0;
 $colour-dark:  #1b1b1b;
-// $colour-background: #deeded;
 $colour-background: #000000;
 
-//Font weights
-// $fw-reg: 300;
-// $fw-bold: 900;
+//Colour Palette Red
+$colour-primary:  #EB883D;
+$colour-secondary: #3f0307;
+$colour-accent:  #b9313a;
+$colour-text:  #ffffff;
+$colour-dark:  #1b1b1b;
+$colour-background: #170204;
+$colour-backgroundFX: hsla((random() * 100), 100%, 50%,.9);
+$colour-backgroundFXv1: 100;
+$colour-backgroundFXv2: 0;
+
+// Colour Palette Green
+$colour-primary:  #24620e;
+$colour-secondary: #0f3701;
+$colour-accent:  #56e024;
+$colour-text:  #fcfefb;
+$colour-dark:  #1b1b1b;
+$colour-background: #0c1f04;
+$colour-backgroundFX: hsla((random() * 200) + 50, 100%, 50%,.9);
+$colour-backgroundFXv1: 200;
+$colour-backgroundFXv2: 50;
+
+// Colour Palette Blue
+$colour-primary:  #5931dd;
+$colour-secondary: #022631;
+$colour-accent:  #6c56b3;
+$colour-text:  #cef2fd;
+$colour-text:  #ffffff;
+$colour-dark:  #1b1b1b;
+$colour-background: #01181e;
+$colour-backgroundFX: hsla((random() * 100) + 200, 100%, 50%,.9);
+$colour-backgroundFXv1: 100;
+$colour-backgroundFXv2: 200;
+
+
+
 
 //Breakpoints
 $breakpoint-tablet: 1024px;

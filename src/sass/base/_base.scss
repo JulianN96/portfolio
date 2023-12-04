@@ -19,7 +19,7 @@ section{
                  (-.5+(random()) * 3) + em
                  (-.5+(random()) * 3) + em
                  7px
-                 hsla(random() * 50, 100%, 50%,.9);
+                 hsla((random() * $colour-backgroundFXv1) + $colour-backgroundFXv2, 100%, 50%,.9)
   }
   text-shadow: $text-shadow;
 }

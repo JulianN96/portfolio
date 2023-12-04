@@ -1,0 +1,42 @@
+.servicesCard {
+  background-color: rgb(255, 255, 255);
+  color: rgb(17, 25, 39);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px;
+  background-image: none;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 100%;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 25%;
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__text {
+    text-align: center;
+    z-index: 2;
+  }
+  &__image {
+    width: 90%;
+    z-index: 2;
+    margin: 2em 0;
+    aspect-ratio: 1/1;
+  }
+  &__button {
+    max-width: 120px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    &Container {
+      z-index: 1;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
