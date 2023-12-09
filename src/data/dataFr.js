@@ -70,7 +70,7 @@ export const projectsDataFr = [
       },
       {
         image: p3image2,
-        alt: 'Sophie Bluel Website Login Design',
+        alt: 'Sophie Bluel Website Design Pour Gestion de Projets',
       },
     ],
     tags: ['Javascript'],

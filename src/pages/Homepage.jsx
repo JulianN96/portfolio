@@ -144,12 +144,14 @@ export default function Homepage() {
         <div className='projects__container'>
           {projectsDataLang.map((project) => (
             <ProjectPreview 
+              key={project.title}
               title={project.title}
               date={project.date}
               previewImage={project.images[0].image}
               imageCollection={project.images}
               tags={project.tags}
               description={project.description}
+              githubLink={project.githubLink}
             />
           ))}
         </div>

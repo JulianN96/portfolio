@@ -7,7 +7,7 @@ i18next
   .use(Backend)
   .init({
     lng: 'en',
-    debug: true,
+    debug: false,
     fallBackLng: 'fr',
     interpolation: {
       escapeValue: false

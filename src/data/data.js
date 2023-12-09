@@ -51,7 +51,8 @@ export const projectsDataEn = [
       },
     ],
     tags: ['HTML', 'CSS'],
-    description: 'A project to display the effects of optimized HTML and responsive CSS Scripts'
+    description: 'A project to display the effects of optimized HTML and responsive CSS Scripts',
+    githubLink: 'https://github.com/JulianN96/Open-Classrooms-Project-2'
   },
   {
     title: 'Portfolio for Interior Designer',
@@ -67,11 +68,12 @@ export const projectsDataEn = [
       },
       {
         image: p3image2,
-        alt: 'Sophie Bluel Website Login Design',
+        alt: 'Sophie Bluel Website Photo Manager Design',
       },
     ],
     tags: ['Javascript'],
-    description: 'A project to implement the javascript functionality of a portfolio website'
+    description: 'A project to implement the javascript functionality of a portfolio website',
+    githubLink: 'https://github.com/JulianN96/Open-Classrooms-Project-3'
   },
   {
     title: 'Project Planning for a Menu Maker',
@@ -103,7 +105,8 @@ export const projectsDataEn = [
       },
     ],
     tags: ['Project Managment', 'Agile Methodologies'],
-    description: 'I was bought on to organise the planning and execution of a dev team to develop a web app'
+    description: 'I was bought on to organise the planning and execution of a dev team to develop a web app',
+    githubLink: ''
   },
   {
     title: 'Nina Carducci - Photographer',
@@ -127,7 +130,8 @@ export const projectsDataEn = [
       },
     ],
     tags: ['Performance Optimization', 'SEO'],
-    description: 'A prebuilt website that needed a little TLC to improve overall performance and SEO visibility'
+    description: 'A prebuilt website that needed a little TLC to improve overall performance and SEO visibility',
+    githubLink: 'https://github.com/JulianN96/Open-Classrooms-Project-5'
   },
   {
     title: 'Housing Rental Site',
@@ -151,7 +155,8 @@ export const projectsDataEn = [
       },
     ],
     tags: ['React', 'Sass'],
-    description: 'A project to display the power of React and its reusable components rendered in this beautiful rental website'
+    description: 'A project to display the power of React and its reusable components rendered in this beautiful rental website',
+    githubLink: 'https://github.com/JulianN96/Open-Classrooms-Project-6'
   },
   {
     title: 'Book Review Site',
@@ -175,7 +180,8 @@ export const projectsDataEn = [
       },
     ],
     tags: ['NodeJS', 'Express', 'MongoDB'],
-    description: 'With the front-end already built, my task was to build a functional backend for this library where users could submit, save and review their books'
+    description: 'With the front-end already built, my task was to build a functional backend for this library where users could submit, save and review their books',
+    githubLink: 'https://github.com/JulianN96/Open-Classrooms-Project-7-Backend'
   },
 ];
 
