@@ -19,12 +19,22 @@
       width: 80%;
       font-size: $fs-h4;
       text-align: center;
+      &-content{
+        @media(max-width: $breakpoint-mobile){
+          font-size: $fs-mobile-h5;
+        }
+      }
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+      margin: 2em 0;
     }
   }
   &__contact{
     z-index: 1;
     margin-bottom: 4em;
-  }
+    }
+  
   &__projects{
     margin: 4em 0;
     z-index: 1;
@@ -44,37 +54,74 @@
   width: 90%;
   height: 90vh;
   z-index: 1;
+  @media (max-width: $breakpoint-mobile) {
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+  }
   &__image{
     border-radius: 50%;
     width: 95%;
     height: 95%;
+
     &Container{
       border-radius: 50%;
       width:228px;
       height: 228px;
-
+      aspect-ratio: 1/1;
       display: flex;
       justify-content: center;
       align-items: center;
       background-color: white;
     }
   }
+  &__hello{
+    @media (max-width: $breakpoint-mobile) {
+      margin: 1em 1em 0.25em 1em;
+    }
+  }
+  &__intro{
+    @media (max-width: $breakpoint-mobile) {
+      margin: .25em 1em;
+    }
+  }
+
 }
 
 .projects__container{
   min-height: 800px;
   width: 90%;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));;
   gap: 4em 2em;
   overflow: hidden;
   margin: 2em 1em;
   padding: 0 2em;
+  
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-flow: wrap;
+  @media (max-width: $breakpoint-mobile){
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    padding: 0;
+    margin: 0 1em 2em 1em;
+  }
 }
 
 .section__title{
   margin: 2em;
   z-index: 1;
+  @media (max-width: $breakpoint-mobile){
+    margin: 1em 0;
+  }
+}
+
+.contact{
+  &__text{
+    @media (max-width: $breakpoint-mobile) {
+      width: 80%;
+    }
+  }
 }

@@ -44,7 +44,7 @@ $colour-backgroundFXv2: 200;
 
 
 //Breakpoints
-$breakpoint-tablet: 1024px;
+$breakpoint-tablet: 1440px;
 $breakpoint-mobile: 767.98px;
 
 //Box Shadows
@@ -73,17 +73,17 @@ html {font-size: 100%;} /* 16px */
 h1 {font-size: 4.210rem; /* 67.36px */}
 
 $fs-h1: 4.210rem;
-$fs-mobile-h1: 3.158rem;
+$fs-mobile-h1: 2.369rem;
 
-h2 {font-size: 3.158rem; /* 50.56px */}
+h2 {font-size: 2.369rem; /* 50.56px */}
 
 $fs-h2: 3.158rem;
-$fs-mobile-h2: 2.369rem;
+$fs-mobile-h2: 1.777rem;
 
 h3 {font-size: 2.369rem; /* 37.92px */}
 
 $fs-h3: 2.369rem;
-$fs-mobile-h3: 1.777rem;
+$fs-mobile-h3: 1.333rem;
 
 h4 {font-size: 1.777rem; /* 28.48px */}
 
@@ -103,4 +103,15 @@ small {font-size: 0.750rem; /* 12px */}
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.9px);
   -webkit-backdrop-filter: blur(3.9px);
+}
+
+@media (max-width: $breakpoint-mobile){
+  h1 {font-size: $fs-mobile-h1;}
+  h2 {font-size: $fs-mobile-h2;}
+  h3 {font-size: $fs-mobile-h3;}
+  h4 {font-size: $fs-mobile-h4;}
+  h5 {font-size: $fs-mobile-h5;}
+  .body{
+    font-size: 16px;
+  }
 }

@@ -15,6 +15,13 @@
     max-height: 805px;
     width: 320px;
     padding: 16px;
+    &Container{
+      display: flex;
+      justify-content: center;
+    }
+    @media (max-width: $breakpoint-mobile) {
+      width: 75%;
+    }
     &:hover, &:focus{
       cursor: pointer;
       box-shadow: $bs-colour-accent;

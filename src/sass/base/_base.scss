@@ -35,6 +35,9 @@ html {
   font-size: 52px;
   color: transparent;
   z-index: 0;
+  @media (max-width: $breakpoint-mobile){
+    width: 100vw;
+  }
 }
 
 .backgroundFX::before, .backgroundFX::after {
@@ -68,5 +71,12 @@ html {
   }
   to {
     transform: rotate(360deg) scale(18) translateX(20px);
+  }
+}
+
+@media (max-width: $breakpoint-mobile){
+  .App{
+    width: 100vw;
+    text-align: center;
   }
 }

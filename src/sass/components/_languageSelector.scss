@@ -21,4 +21,8 @@
     &:hover{
       cursor: pointer;
     }
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 0.5rem;
+      width: 70px;
+    }
 }

@@ -8,7 +8,6 @@ export default function LargeCardComponent({
   tags,
 }) {
 
-  console.log(tags)
   return (
     <div className='largeCardComponent'>
       <div

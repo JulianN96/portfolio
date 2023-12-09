@@ -61,7 +61,7 @@ export default function Homepage() {
       <section className='homepage__about' id='about'>
         <h2>{t('About.Title')}</h2>
         <div className='homepage__aboutText'>
-          <p>{t('About.Content')}</p>
+          <p className='homepage__aboutText-content'>{t('About.Content')}</p>
         </div>
       </section>
       <section className='homepage__services' id='services'>

@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next'
 
 export default function ServicesCardComponent({title, description, image}) {
   const { t } = useTranslation();
-  console.log(image)
   return (
     <div className='servicesCard'>
       <div className='servicesCard__text'>

@@ -28,4 +28,7 @@
         padding-right: 12px;
         white-space: nowrap;
     }
+    @media (max-width: $breakpoint-mobile) {
+        font-size: 0.65rem;
+    }
 }

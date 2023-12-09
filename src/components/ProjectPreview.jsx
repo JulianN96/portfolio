@@ -5,7 +5,6 @@ import Tag from './Tag';
 export default function ProjectPreview({ title, date, previewImage, tags, description, imageCollection }) {
 
   ReactModal.setAppElement('#root')
-  let subtitle;
   const [modalIsOpen, setIsOpen] = useState(false);
 
   const customStyles = {
@@ -20,10 +19,12 @@ export default function ProjectPreview({ title, date, previewImage, tags, descri
   };
 
   function focusImage(e){
-    if (e.target.classList.contains('projectModal__exampleImages--focus')){
-      e.target.classList.remove('projectModal__exampleImages--focus');
-    } else if(!e.target.classList.contains('projectModal__exampleImages--focus')){
-      e.target.classList.add('projectModal__exampleImages--focus');
+    if (window.innerWidth > 767.98){
+      if (e.target.classList.contains('projectModal__exampleImages--focus')){
+        e.target.classList.remove('projectModal__exampleImages--focus');
+      } else if(!e.target.classList.contains('projectModal__exampleImages--focus')){
+        e.target.classList.add('projectModal__exampleImages--focus');
+      }
     }
   }
 
@@ -35,11 +36,12 @@ export default function ProjectPreview({ title, date, previewImage, tags, descri
   }
 
   function closeModal() {
+    console.log('closed')
     setIsOpen(false);
   }
 
   return (
-    <div>
+    <div className='projectPreview__cardContainer'>
     <div className='projectPreview__card' onClick={openModal}>
       <img className='projectPreview__image' src={previewImage} />
       <p className='projectPreview__date'>{date}</p>
@@ -50,7 +52,7 @@ export default function ProjectPreview({ title, date, previewImage, tags, descri
         ))}
       </div>
       <p className='projectPreview__description'>{description}</p>   
-    </div>
+      </div>
     <ReactModal
           isOpen={modalIsOpen}
           onAfterOpen={afterOpenModal}
@@ -85,5 +87,6 @@ export default function ProjectPreview({ title, date, previewImage, tags, descri
           </div>
         </ReactModal>
     </div>
+
   );
 }

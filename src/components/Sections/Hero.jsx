@@ -6,8 +6,8 @@ export default function Hero() {
   return (
     <section className='hero'>
       <div>
-        <h1>{t('Hero.Welcome')}</h1>
-        <h1>{t('Hero.Intro')}</h1>
+        <h1 className='hero__hello'>{t('Hero.Welcome')}</h1>
+        <h1 className='hero__intro'>{t('Hero.Intro')}</h1>
       </div>
       <div className='hero__imageContainer'>
         <img
