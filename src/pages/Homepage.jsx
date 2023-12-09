@@ -24,6 +24,8 @@ import ServicesCardComponent from '../components/ServicesCardComponent';
 
 export default function Homepage() {
 
+
+
   const [currentLang, setCurrentLang] = useState(localStorage.getItem("lang"))
   const [projectsDataLang, setProjectsDataLang] = useState(projectsDataEn);
   const [tagsLang, setTagsLang] = useState(tagsEn)
@@ -36,6 +38,12 @@ export default function Homepage() {
       setTagsLang(tagsFr)
     }
   }, [localStorage.getItem("lang")]);
+
+  useEffect(() => {
+    if(!localStorage.getItem("lang")){
+      localStorage.setItem('lang', 'en')
+    }
+  })
 
 
   const form = useRef();

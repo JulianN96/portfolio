@@ -4,6 +4,7 @@ import Homepage from './pages/Homepage';
 import DefaultLayout from './components/Layouts/DefaultLayout';
 
 function App() {
+  localStorage.setItem('lang', 'en')
   return (
     <div className='App'>
       <Routes>
