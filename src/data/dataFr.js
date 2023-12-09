@@ -132,3 +132,13 @@ export const projectsDataFr = [
     description: 'Avec un Front déja construit, ma mission était de monter un système back-end pour le site.'
   },
 ];
+
+
+export const tagsFr = {
+  HTML: ['Structure Propre', 'Optimizé SEO'],
+  CSS: ['Design Responsive', 'Design UI/UX'],
+  JS: ['Structure Modulaire', 'Integrations API ', 'Experience fluide pour Utilizateurs'],
+  React: ['Composants Reutilisables', 'Gestion du Routing', 'Stateful Management'],
+  SASS: ['Structure Modulaire', 'Code Reutilizable', 'Animations Fluides'],
+  NodeJS: ['Framework Back-end', 'Serveur Modulable et Personalizé', 'Intallation MongoDB', 'Serveur Sécurisé']
+}

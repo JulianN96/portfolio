@@ -54,25 +54,33 @@
     display: flex;
     gap: 2em;
   }
-  &__secondContainer{
+  &__secondContainer {
     width: 100%;
     display: grid;
     justify-items: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));;
-    gap: 2em .5em;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2em 0.5em;
     overflow: hidden;
     align-self: flex-start;
     margin: 1em 1em;
   }
-  &__exampleImages{
-    width: 90%;
+  &__exampleImages {
+    max-width: 90%;
     transition: scale 200ms ease-in-out;
-    &:hover, &:focus{
+    max-height: 800px;
+    &:hover{
+      cursor: pointer;
+    }
+    &--focus {
       position: absolute;
       z-index: 11;
-      transform: translateY(50px);
-      scale: (.7);
+      transform: translateY(-200px);
+      height: auto;
+      max-width: 80vw;
+      max-height: auto;
+      overflow: scroll;
+      object-fit: cover;
     }
   }
 }

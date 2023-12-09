@@ -19,6 +19,14 @@ export default function ProjectPreview({ title, date, previewImage, tags, descri
     },
   };
 
+  function focusImage(e){
+    if (e.target.classList.contains('projectModal__exampleImages--focus')){
+      e.target.classList.remove('projectModal__exampleImages--focus');
+    } else if(!e.target.classList.contains('projectModal__exampleImages--focus')){
+      e.target.classList.add('projectModal__exampleImages--focus');
+    }
+  }
+
   function openModal() {
     setIsOpen(true);
   }
@@ -34,13 +42,13 @@ export default function ProjectPreview({ title, date, previewImage, tags, descri
     <div>
     <div className='projectPreview__card' onClick={openModal}>
       <img className='projectPreview__image' src={previewImage} />
+      <p className='projectPreview__date'>{date}</p>
+      <h3 className='projectPreview__title'>{title}</h3>
       <div className='projectPreview__tagsContainer'>
       {tags.map((tagtext) => (
         <Tag key={tagtext} tag={tagtext}/>
         ))}
       </div>
-      <p className='projectPreview__date'>{date}</p>
-      <h3 className='projectPreview__title'>{title}</h3>
       <p className='projectPreview__description'>{description}</p>   
     </div>
     <ReactModal
@@ -68,7 +76,7 @@ export default function ProjectPreview({ title, date, previewImage, tags, descri
               </div>
               <div className='projectModal__secondContainer'>
                 {imageCollection.map((image) => (
-                    <img className='projectModal__exampleImages' key={image.alt} src={image.image} />
+                    <img className='projectModal__exampleImages' onClick={focusImage} key={image.alt} src={image.image} />
                   ))}
               </div>
             </div>

@@ -1,6 +1,8 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 export default function ServicesCardComponent({title, description, image}) {
+  const { t } = useTranslation();
   console.log(image)
   return (
     <div className='servicesCard'>
@@ -10,8 +12,8 @@ export default function ServicesCardComponent({title, description, image}) {
       </div>
         <img src={image} className='servicesCard__image'/>
       <div className='servicesCard__buttonContainer'>
-        <a className='servicesCard__button CTAButton' href='#projects'>Examples</a>
-        <a className='servicesCard__button CTAButton' href='#contact'>Get Quote</a>
+        <a className='servicesCard__button CTAButton' href='#projects'>{t('Services.Buttons.Examples')}</a>
+        <a className='servicesCard__button CTAButton' href='#contact'>{t('Services.Buttons.Quote')}</a>
       </div>
     </div>
   )

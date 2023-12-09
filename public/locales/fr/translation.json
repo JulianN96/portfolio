@@ -6,7 +6,7 @@
   "Projects" : "Projets",
   "About": {
     "Title": "Presentation",
-    "Content": "Passioné du domaine informatique et web, je crée, develope et maintien des sites et applications web modernes pour acqueillir toute demande."
+    "Content": "Passioné du domaine informatique et web, je crée, develope et maintien des sites et applications web modernes pour acqueillir toutes demandes."
   },
   "ExperienceCards":{
     "HTML":{
@@ -36,7 +36,17 @@
     "Domain_Management":{
       "title": "Domain Management",
       "description": "Quand on travaille ensemble, vous n'avez pas besoin de vous inqueter de la gestion du domaine ou du deploiement. Je m'occupe de tout aspects technologiques du site pour vous!"
+    },
+    "Buttons":{
+      "Examples": "Examples",
+      "Quote": "Avoir Un Devis"
     }
   },
-  "Contact": "Commençons un projet ensemble! Envoyez moi un message ici:"
+  "Contact": "Commençons un projet ensemble! Envoyez moi un message ici:",
+  "ContactForm":{
+    "Name": "Nom/Prenom",
+    "Email": "Adresse Mail",
+    "Phone": "Numero de Telephone",
+    "Send": "Envoyer"
+  }
 }

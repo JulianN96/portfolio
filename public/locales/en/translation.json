@@ -29,7 +29,18 @@
     "Domain_Management":{
       "title": "Domain Management",
       "description": "When working together you dont need to worry about domain management or maintenance. I take care of all aspects of the tech side so you don't have to worry."
+    },
+    "Buttons":{
+      "Examples": "Examples",
+      "Quote": "Get A Quote"
     }
+
   },
-  "Contact": "Let's start a project together! Contact me here:"
+  "Contact": "Let's start a project together! Contact me here:",
+  "ContactForm":{
+    "Name": "Name",
+    "Email": "Email Address",
+    "Phone": "Phone Number",
+    "Send": "Send"
+  }
 }

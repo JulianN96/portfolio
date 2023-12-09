@@ -12,6 +12,8 @@ import nodeicon from '../assets/images/icons/nodeicon.png';
 import sassicon from '../assets/images/icons/sassicon.png'
 import BackgroundFX from '../components/BackgroundFX';
 import ProjectPreview from '../components/ProjectPreview';
+import { tagsEn } from '../data/data';
+import { tagsFr } from '../data/dataFr';
 
 import emailjs from '@emailjs/browser';
 
@@ -24,13 +26,16 @@ export default function Homepage() {
 
   const [currentLang, setCurrentLang] = useState(localStorage.getItem("lang"))
   const [projectsDataLang, setProjectsDataLang] = useState(projectsDataEn);
+  const [tagsLang, setTagsLang] = useState(tagsEn)
   useEffect(()=> {
     if(localStorage.getItem("lang") === 'en'){
-      setProjectsDataLang(projectsDataEn)
+      setProjectsDataLang(projectsDataEn);
+      setTagsLang(tagsEn);
     } else if(localStorage.getItem("lang") === 'fr'){
-      setProjectsDataLang(projectsDataFr)
+      setProjectsDataLang(projectsDataFr);
+      setTagsLang(tagsFr)
     }
-  }, [localStorage.getItem("lang")])
+  }, [localStorage.getItem("lang")]);
 
 
   const form = useRef();
@@ -87,58 +92,42 @@ export default function Homepage() {
             skillTime={'1.5 '+ t('Years')}
             avatarImage={htmlicon}
             backgroundI={projectsDataLang[5].images[0].image}
-            tags={['Optimization']}
+            tags={tagsLang.HTML}
           />
           <LargeCardComponent
             skillName={'CSS'}
             skillTime={'1.5 '+ t('Years')}
             avatarImage={cssicon}
             backgroundI={projectsDataLang[5].images[0].image}
-            tags={['Responsive Design', 'UI/UX Design']}
+            tags={tagsLang.CSS}
           />
           <LargeCardComponent
             skillName={'Javascript'}
             skillTime={'1.5 '+ t('Years')}
             avatarImage={jsicon}
             backgroundI={projectsDataLang[5].images[0].image}
-            tags={[
-              'Modular Structure',
-              'API Integrations',
-              'User Driven Experiences',
-            ]}
+            tags={tagsLang.JS}
           />
           <LargeCardComponent
             skillName={'React'}
             skillTime={'1 '+ t('Year')}
             avatarImage={reacticon}
             backgroundI={projectsDataLang[5].images[0].image}
-            tags={[
-              'Reusable Components',
-              'Routing Management',
-              'Stateful Management',
-            ]}
+            tags={tagsLang.React}
           />
           <LargeCardComponent
             skillName={'SASS'}
             skillTime={'6 ' + t('Months')}
             avatarImage={sassicon}
             backgroundI={projectsDataLang[5].images[0].image}
-            tags={[
-              'Modular Structure',
-              'Reusability of Clean Code',
-              'Fluid Animations',
-            ]}
+            tags={tagsLang.SASS}
           />
           <LargeCardComponent
             skillName={'NodeJS'}
             skillTime={'2 '+ t('Months')}
             avatarImage={nodeicon}
             backgroundI={projectsDataLang[5].images[0].image}
-            tags={[
-              'Backend Framework Development',
-              'Customizable Server-side Logic',
-              'MongoDB Setup',
-            ]}
+            tags={tagsLang.NodeJS}
           />
         </div>
       </section>
@@ -166,7 +155,7 @@ export default function Homepage() {
         <form className='form__container' ref={form} onSubmit={sendEmail}>
           <div className='form__inputContainer'>
             <label className='form__label' htmlFor='contactName'>
-              Name
+              {t('ContactForm.Name')}
             </label>
             <input
               className='form__input'
@@ -177,7 +166,7 @@ export default function Homepage() {
             ></input>
           </div>
           <label className='form__label' htmlFor='contactemail'>
-            Email Address
+          {t('ContactForm.Email')}
           </label>
           <input
             className='form__input'
@@ -187,7 +176,7 @@ export default function Homepage() {
             aria-autocomplete='email'
           ></input>
           <label className='form__label' htmlFor='contactphone'>
-            Phone Number
+          {t('ContactForm.Phone')}
           </label>
           <input
             className='form__input'
@@ -205,7 +194,7 @@ export default function Homepage() {
             name='message'
             required={true}
           ></textarea>
-          <button type='submit' className='CTAButton'>Send</button>
+          <button type='submit' className='CTAButton'>{t('ContactForm.Send')}</button>
         </form>
       </section>
     </div>

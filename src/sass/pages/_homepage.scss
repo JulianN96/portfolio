@@ -17,6 +17,7 @@
     width: 100%;
     &Text{
       width: 80%;
+      font-size: $fs-h4;
       text-align: center;
     }
   }
@@ -74,5 +75,6 @@
 }
 
 .section__title{
+  margin: 2em;
   z-index: 1;
 }
