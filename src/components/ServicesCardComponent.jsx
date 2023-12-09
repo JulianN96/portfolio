@@ -9,7 +9,7 @@ export default function ServicesCardComponent({title, description, image}) {
         <h2 className='servicesCard__title'>{title}</h2>
         <p className='servicesCard__description'>{description}</p>
       </div>
-        <img src={image} className='servicesCard__image'/>
+        <img src={image} alt={title} className='servicesCard__image'/>
       <div className='servicesCard__buttonContainer'>
         <a className='servicesCard__button CTAButton' href='#projects'>{t('Services.Buttons.Examples')}</a>
         <a className='servicesCard__button CTAButton' href='#contact'>{t('Services.Buttons.Quote')}</a>

@@ -14,7 +14,7 @@ export default function LargeCardComponent({
         className=''
         style={{ background: `url(${backgroundI}) no-repeat center`}}
       >
-        <img className='largeCardComponent__coverImage' src={backgroundI}/>
+        <img className='largeCardComponent__coverImage' alt='background image of a block of code' src={backgroundI}/>
       </div>
       <div className='largeCardComponent__content'>
         <div className='largeCardComponent__imageContainer'>

@@ -52,7 +52,7 @@ export default function ProjectPreview({ title, date, previewImage, tags, descri
   return (
     <div className='projectPreview__cardContainer'>
     <div className='projectPreview__card' onClick={openModal} onBlur={closeModal}>
-      <img className='projectPreview__image' src={previewImage} />
+      <img className='projectPreview__image' alt={imageCollection[0].alt} src={previewImage} />
       <p className='projectPreview__date'>{date}</p>
       <h3 className='projectPreview__title'>{title}</h3>
       <div className='projectPreview__tagsContainer'>

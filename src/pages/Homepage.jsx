@@ -172,7 +172,6 @@ export default function Homepage() {
               id='contactName'
               name='user_name'
               required={true}
-              aria-autocomplete='name'
             ></input>
           </div>
           <label className='form__label' htmlFor='contactemail'>
@@ -183,7 +182,6 @@ export default function Homepage() {
             id='contactemail'
             name='user_email'
             required={true}
-            aria-autocomplete='email'
           ></input>
           <label className='form__label' htmlFor='contactphone'>
           {t('ContactForm.Phone')}
@@ -193,7 +191,6 @@ export default function Homepage() {
             id='contactphone'
             name='user_phone'
             required={true}
-            aria-autocomplete='tel'
           ></input>
           <label className='form__label' htmlFor='contactmessage'>
             Message

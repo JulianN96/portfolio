@@ -15,24 +15,27 @@ export default function Socials() {
           className='social-list__link'
           href='mailto:contact@dnadevstudios.com'
           target='_blank'
+          aria-label='send an email'
         >
-          <FontAwesomeIcon className='social-list__icon' icon={faEnvelope} alt='Email'/>
+          <FontAwesomeIcon className='social-list__icon' aria-hidden='true' aria-label='send an email' icon={faEnvelope} alt='Email'/>
         </Link>
 
         <Link
           className='social-list__link'
           href='https://www.github.com/JulianN96'
           target='_blank'
+          aria-label='visit github profile'
         >
-          <FontAwesomeIcon className='social-list__icon' icon={faGithub} alt='Github Link'/>
+          <FontAwesomeIcon className='social-list__icon' aria-hidden='true' aria-label='visit github profile' icon={faGithub} alt='Github Link'/>
         </Link>
 
         <Link
           className='social-list__link'
           href='tel:+3376789271'
           target='_blank'
+          aria-label='call via telephone'
         >
-          <FontAwesomeIcon className='social-list__icon' icon={faPhone} alt='Phone Number'/>
+          <FontAwesomeIcon className='social-list__icon' aria-hidden='true' aria-label='call via telephone' icon={faPhone} alt='Phone Number'/>
         </Link>
 
       </div>
