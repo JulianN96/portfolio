@@ -54,6 +54,7 @@
   width: 90%;
   height: 90vh;
   z-index: 1;
+  overflow: hidden;
   @media (max-width: $breakpoint-mobile) {
     flex-direction: column;
     height: 100vh;
@@ -78,7 +79,7 @@
   }
   &__hello{
     @media (max-width: $breakpoint-mobile) {
-      margin: 1em 1em 0.25em 1em;
+      margin: 1em .5em 0.25em .5em;
     }
   }
   &__intro{
