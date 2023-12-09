@@ -47,6 +47,9 @@
     "Name": "Nom/Prenom",
     "Email": "Adresse Mail",
     "Phone": "Numero de Telephone",
-    "Send": "Envoyer"
+    "Send": "Envoyer",   
+    "Success": "A bientôt!",
+    "Success_Message": "Votre message à été envoyé! Je reviens vers vous dès que possible!",
+    "Close": "Fermer"
   }
 }

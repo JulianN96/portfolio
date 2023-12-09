@@ -140,3 +140,22 @@
     }
   }
 }
+
+.contact__modal{
+  width: 40vw;
+  height: 40vh;
+  @media (max-width: $breakpoint-mobile) {
+    width: 80%;
+    height: 80%;
+  }
+  &Div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+
+  }
+}

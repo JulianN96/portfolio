@@ -12,8 +12,9 @@ import nodeicon from '../assets/images/icons/nodeicon.avif';
 import sassicon from '../assets/images/icons/sassicon.avif'
 import BackgroundFX from '../components/BackgroundFX';
 import ProjectPreview from '../components/ProjectPreview';
-import { tagsEn } from '../data/data';
-import { tagsFr } from '../data/dataFr';
+import { tagsEn, contactModalEn } from '../data/data';
+import { tagsFr, contactModalFr } from '../data/dataFr';
+import ReactModal from 'react-modal';
 
 import emailjs from '@emailjs/browser';
 
@@ -23,19 +24,18 @@ import { projectsDataFr } from '../data/dataFr';
 import ServicesCardComponent from '../components/ServicesCardComponent';
 
 export default function Homepage() {
-
-
-
-  const [currentLang, setCurrentLang] = useState(localStorage.getItem("lang"))
   const [projectsDataLang, setProjectsDataLang] = useState(projectsDataEn);
-  const [tagsLang, setTagsLang] = useState(tagsEn)
+  const [tagsLang, setTagsLang] = useState(tagsEn);
+  const [contactModalLang, setContactModalLang] = useState(contactModalEn)
   useEffect(()=> {
     if(localStorage.getItem("lang") === 'en'){
       setProjectsDataLang(projectsDataEn);
       setTagsLang(tagsEn);
+      setContactModalLang(contactModalEn);
     } else if(localStorage.getItem("lang") === 'fr'){
       setProjectsDataLang(projectsDataFr);
-      setTagsLang(tagsFr)
+      setTagsLang(tagsFr);
+      setContactModalLang(contactModalFr);
     }
   }, [localStorage.getItem("lang")]);
 
@@ -45,6 +45,20 @@ export default function Homepage() {
     }
   })
 
+  const [modalIsOpen, setIsOpen] = useState(false);
+  const [modalTitle, setModalTitle] = useState('modal-title');
+  const [modalButton, setModalButton] = useState(null);
+  const [modalInfo, setModalInfo] = useState('modal-info');
+  const customStyles = {
+    content: {
+      top: '50%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+    },
+  };
 
   const form = useRef();
   const sendEmail = (e) => {
@@ -53,11 +67,32 @@ export default function Homepage() {
     emailjs.sendForm('service_a8p2ga3', 'template_xddi8fb', form.current, 'dHFbN8Q39KXoDM9Yl')
       .then((result) => {
           console.log(result.text);
+          setModalTitle(contactModalLang.Success);
+          setModalInfo(contactModalLang.Success_Message);
+          setModalButton(<button className='CTAButton' onClick={closeModal}>{contactModalLang.Close}</button>)
+          openModal();
       }, (error) => {
           console.log(error.text);
+          setModalTitle(contactModalLang.Error);
+          setModalInfo(contactModalLang.Error_Message);
+          setModalButton(<button className='CTAButton' onClick={closeModal}>{contactModalLang.Close}</button>)
+          openModal();
       });
       e.target.reset(); 
   };
+
+
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function afterOpenModal() {
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
 
   const { t } = useTranslation();
   return (
@@ -204,6 +239,21 @@ export default function Homepage() {
           <button type='submit' className='CTAButton'>{t('ContactForm.Send')}</button>
         </form>
       </section>
+      <ReactModal
+        isOpen={modalIsOpen}
+        onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        style={customStyles}
+        contentLabel='Example Modal'
+        overlayClassName='Overlay'
+        className='modal contact__modal'
+      >
+        <div className='contact__modalDiv'>
+          <h2 className='contact__modalTitle'>{modalTitle}</h2>
+          <h4 className='contact__modalInfo'>{modalInfo}</h4>
+          {modalButton}
+        </div>
+      </ReactModal>
     </div>
   );
 }

@@ -41,6 +41,10 @@
     "Name": "Name",
     "Email": "Email Address",
     "Phone": "Phone Number",
-    "Send": "Send"
+    "Send": "Send",
+    "Success": "Success!",
+    "Success_Message": "Your message has been sent! I'll get back to you as soon as I can!",
+    "Close": "Close"
   }
+  
 }

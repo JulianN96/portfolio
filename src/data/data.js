@@ -194,3 +194,11 @@ export const tagsEn = {
   SASS: ['Modular Structure', 'Reusablility of Clean Code', 'Fluid Animations'],
   NodeJS: ['Backend Framework', 'Customizable Server-side Logic', 'MongoDB Setup', 'Secure Applications']
 }
+
+export const contactModalEn = {
+  "Success": "Success!",
+  "Success_Message": "Your message has been sent! I'll get back to you as soon as I can!",
+  "Close": "Close",
+  "Error": "Error",
+  "Error_Message": "Your message couldn't be sent. Please try again!"
+}

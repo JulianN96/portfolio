@@ -191,3 +191,11 @@ export const tagsFr = {
   SASS: ['Structure Modulaire', 'Code Reutilizable', 'Animations Fluides'],
   NodeJS: ['Framework Back-end', 'Serveur Modulable et Personalizé', 'Intallation MongoDB', 'Serveur Sécurisé']
 }
+
+export const contactModalFr = {
+  "Success": "A bientôt!",
+  "Success_Message": "Votre message à été envoyé! Je reviens vers vous dès que possible!",
+  "Close": "Fermer",
+  "Error": "Error",
+  "Error_Message": "Votre message n'à pu etre envoyé. Veuillez re-essayer."
+}
