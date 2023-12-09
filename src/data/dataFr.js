@@ -1,14 +1,35 @@
-import p3image1 from '../assets/images/projectImages/p3/sophiebluel2.png';
-import p3image2 from '../assets/images/projectImages/p3/sophiebluel3.png';
-import p3preview from '../assets/images/projectImages/previews/sophiebluel.png';
-import p2preview from '../assets/images/projectImages/previews/booki2.png';
-import p4preview from '../assets/images/projectImages/previews/menumaker.png';
-import p5preview from '../assets/images/projectImages/previews/ninacarducci.png';
-import p6preview from '../assets/images/projectImages/previews/kasa.png';
-import p7preview from '../assets/images/projectImages/previews/p7code.png';
-import { useTranslation } from 'react-i18next';
+import p3preview from '../assets/images/projectImages/previews/sophiebluel.avif';
+import p2preview from '../assets/images/projectImages/previews/booki2.avif';
+import p4preview from '../assets/images/projectImages/previews/menumaker.avif';
+import p5preview from '../assets/images/projectImages/previews/ninacarducci.avif';
+import p6preview from '../assets/images/projectImages/previews/kasa.avif';
+import p7preview from '../assets/images/projectImages/previews/p7code.avif';
 
-// const { t } = useTranslation();
+//p2images
+import p2_1 from '../assets/images/projectImages/p2/booki.avif';
+import p2_2 from '../assets/images/projectImages/p2/booki3.avif';
+import p2_3 from '../assets/images/projectImages/p2/booki4.avif';
+//p3images
+import p3image1 from '../assets/images/projectImages/p3/sophiebluel2.avif';
+import p3image2 from '../assets/images/projectImages/p3/sophiebluel3.avif';
+//p4images
+import p4_1 from '../assets/images/projectImages/p4/p4_1.avif';
+import p4_2 from '../assets/images/projectImages/p4/p4_2.avif';
+import p4_3 from '../assets/images/projectImages/p4/p4_3.avif';
+import p4_4 from '../assets/images/projectImages/p4/p4_4.avif';
+import p4_5 from '../assets/images/projectImages/p4/p4_5.avif';
+//p5images
+import p5_1 from '../assets/images/projectImages/p5/p5_1.avif';
+import p5_2 from '../assets/images/projectImages/p5/p5_2.avif';
+import p5_3 from '../assets/images/projectImages/p5/p5_3.avif';
+//p6images
+import p6_1 from '../assets/images/projectImages/p6/p6_1.avif';
+import p6_2 from '../assets/images/projectImages/p6/p6_2.avif';
+import p6_3 from '../assets/images/projectImages/p6/p6_3.avif';
+//p7images
+import p7_1 from '../assets/images/projectImages/p7/p7_1.avif';
+import p7_2 from '../assets/images/projectImages/p7/p7_2.avif';
+import p7_3 from '../assets/images/projectImages/p7/p7_3.avif';
 
 export const projectsDataFr = [
   {
@@ -20,12 +41,16 @@ export const projectsDataFr = [
         alt: 'Apercu de Booki Website'
       },
       {
-        image: p3image1,
+        image: p2_1,
         alt: 'Sophie Bluel Website Login Design',
       },
       {
-        image: p3image2,
-        alt: 'Sophie Bluel Website Login Design',
+        image: p2_2,
+        alt: 'Booki design pour Mobile',
+      },
+      {
+        image: p2_3,
+        alt: 'Booki design pour tablette',
       },
     ],
     tags: ['HTML', 'CSS'],
@@ -60,12 +85,24 @@ export const projectsDataFr = [
         alt: 'Apercu de MenuMaker Website'
       },
       {
-        image: p3image1,
-        alt: 'Sophie Bluel Website Login Design',
+        image: p4_1,
+        alt: 'MenuMaker Presentation Client',
       },
       {
-        image: p3image2,
-        alt: 'Sophie Bluel Website Login Design',
+        image: p4_2,
+        alt: 'Menu Maker PDF UI',
+      },
+      {
+        image: p4_3,
+        alt: 'Menu Maker Modal UI',
+      },
+      {
+        image: p4_4,
+        alt: 'Menu Maker Client Login UI',
+      },
+      {
+        image: p4_5,
+        alt: 'Menu Maker Project Timeline',
       },
     ],
     tags: ['Managment de Projet', 'Methodologies Agile'],
@@ -77,15 +114,19 @@ export const projectsDataFr = [
     images: [
       {
         image: p5preview,
-        alt: 'Preview of the Photographer Website'
+        alt: "Apercu du site d'un Photographe"
       },
       {
-        image: p3image1,
-        alt: 'Sophie Bluel Website Login Design',
+        image: p5_1,
+        alt: 'Rapport SEO',
       },
       {
-        image: p3image2,
-        alt: 'Sophie Bluel Website Login Design',
+        image: p5_2,
+        alt: 'Nina Carducci Website Design',
+      },
+      {
+        image: p5_3,
+        alt: 'Scores Lighthouse du site',
       },
     ],
     tags: ['Performance Optimization', 'SEO'],
@@ -97,15 +138,19 @@ export const projectsDataFr = [
     images: [
       {
         image: p6preview,
-        alt: 'Preview of the Kasa Website'
+        alt: 'Apercu du site Kasa Locations'
       },
       {
-        image: p3image1,
-        alt: 'Sophie Bluel Website Login Design',
+        image: p6_1,
+        alt: "Design de la page d'une location",
       },
       {
-        image: p3image2,
-        alt: 'Sophie Bluel Website Login Design',
+        image: p6_2,
+        alt: 'Design de la page a propos',
+      },
+      {
+        image: p6_3,
+        alt: 'Apercu du site en Mobile',
       },
     ],
     tags: ['React', 'Sass'],
@@ -120,12 +165,16 @@ export const projectsDataFr = [
         alt: 'Preview of the backend of MVG Website'
       },
       {
-        image: p3image1,
-        alt: 'Sophie Bluel Website Login Design',
+        image: p7_1,
+        alt: 'Apercu de la page pour ajouter un livre',
       },
       {
-        image: p3image2,
-        alt: 'Sophie Bluel Website Login Design',
+        image: p7_2,
+        alt: 'Apercu du site front end',
+      },
+      {
+        image: p7_3,
+        alt: 'Apercu de la page info du livre',
       },
     ],
     tags: ['NodeJS', 'Express', 'MongoDB'],

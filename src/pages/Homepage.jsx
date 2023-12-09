@@ -5,11 +5,11 @@ import Navbar from '../components/Sections/Navbar';
 import LargeCardComponent from '../components/LargeCardComponent';
 import Socials from '../components/Sections/Socials';
 import htmlicon from '../assets/images/icons/htmlicon.png';
-import cssicon from '../assets/images/icons/cssicon.png';
-import jsicon from '../assets/images/icons/jsicon.png';
-import reacticon from '../assets/images/icons/reacticon.png';
-import nodeicon from '../assets/images/icons/nodeicon.png';
-import sassicon from '../assets/images/icons/sassicon.png'
+import cssicon from '../assets/images/icons/cssicon.avif';
+import jsicon from '../assets/images/icons/jsicon.avif';
+import reacticon from '../assets/images/icons/reacticon.avif';
+import nodeicon from '../assets/images/icons/nodeicon.avif';
+import sassicon from '../assets/images/icons/sassicon.avif'
 import BackgroundFX from '../components/BackgroundFX';
 import ProjectPreview from '../components/ProjectPreview';
 import { tagsEn } from '../data/data';

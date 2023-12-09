@@ -1,4 +1,3 @@
-
 import p3preview from '../assets/images/projectImages/previews/sophiebluel.avif';
 import p2preview from '../assets/images/projectImages/previews/booki2.avif';
 import p4preview from '../assets/images/projectImages/previews/menumaker.avif';

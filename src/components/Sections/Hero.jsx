@@ -13,7 +13,7 @@ export default function Hero() {
         <img
           className='hero__image'
           alt='Photo de Julian Norris'
-          src={require('../../assets/images/me-image.jpg')}
+          src={require('../../assets/images/me-image.avif')}
         ></img>
       </div>
     </section>
