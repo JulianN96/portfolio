@@ -22,7 +22,7 @@ export default function Navbar() {
       <div className='navbar__menu'>
         <a className='navbar__menuItem' href='#about'>{t('About.Title')}</a>
         <a className='navbar__menuItem' href='#services'>Services</a>
-        <a className='navbar__menuItem' href='#experience'>Experience</a>
+        <a className='navbar__menuItem' href='#experience'>{t('Experience')}</a>
         <a className='navbar__menuItem' href='#projects'>{t('Projects')}</a>
         <a className='navbar__menuItem' href='#projects'>Contact</a>
         {/* <NavLink className='navbar__menuItem' to='/blogs'>Blog</NavLink> */}

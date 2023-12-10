@@ -54,10 +54,10 @@ export const projectsDataFr = [
       },
     ],
     tags: ['HTML', 'CSS'],
-    description: "Un projet pour montrer l'éfficacité d'un code HTML et CSS Optimizé et moderne"
+    description: "Un projet pour montrer l'efficacité d'un code HTML et CSS Optimisé et moderne"
   },
   {
-    title: 'Portfolio pour Designer Architecte',
+    title: 'Portfolio pour Architecte Interieur',
     date: 'September 2023',
     images: [
       {
@@ -74,7 +74,7 @@ export const projectsDataFr = [
       },
     ],
     tags: ['Javascript'],
-    description: 'Un projet poiur créer la structure javascript pour un portfolio.'
+    description: 'Un projet pour créer la structure javascript pour un portfolio.'
   },
   {
     title: 'Plannification de projet pour un Menu Maker',
@@ -105,8 +105,8 @@ export const projectsDataFr = [
         alt: 'Menu Maker Project Timeline',
       },
     ],
-    tags: ['Managment de Projet', 'Methodologies Agile'],
-    description: "J'ai organisé le planning et execution d'une équipe de developpeurs pour la creation d'un web app"
+    tags: ['Managment de Projet', 'Méthodologie Agile'],
+    description: "J'ai organisé le planning et l'éxécution d'une équipe de developpeurs pour la création d'une application web"
   },
   {
     title: 'Nina Carducci - Photographe',
@@ -130,7 +130,7 @@ export const projectsDataFr = [
       },
     ],
     tags: ['Performance Optimization', 'SEO'],
-    description: "Un site de photographe deja crée avais besoin d'une optimization de performance et visibilité"
+    description: "Un site de photographe déjà créé avait besoin d'une optimisation de performance et visibilité"
   },
   {
     title: 'Kasa - Site de location',
@@ -154,7 +154,7 @@ export const projectsDataFr = [
       },
     ],
     tags: ['React', 'Sass'],
-    description: 'Un projet pour démontrer la puissance de React et ses composant réutilisables sur ce site magnifique'
+    description: 'Un projet pour démontrer la puissance de React et ses composants réutilisables sur ce site magnifique'
   },
   {
     title: 'Mon Vieux Grimoire',

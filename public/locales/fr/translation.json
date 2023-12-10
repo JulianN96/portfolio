@@ -5,13 +5,14 @@
   },
   "Projects" : "Projets",
   "About": {
-    "Title": "Presentation",
-    "Content": "Passioné du domaine informatique et web, je crée, develope et maintien des sites et applications web modernes pour acqueillir toutes demandes."
+    "Title": "Présentation",
+    "Content": "Passionné du domaine informatique et web, je crée, developpe et maintiens des sites et applications web modernes pour accueillir toutes demandes."
   },
+  "Experience": "Expérience",
   "ExperienceCards":{
     "HTML":{
       "0": "Integration du Contenu",
-      "1": "Optimization SEO"
+      "1": "Optimisation SEO"
     }
   },
   "ProjectData":{
@@ -27,26 +28,26 @@
   "Services": {
     "Website_Creation":{
       "title": "Creation de Site Web",
-      "description": "Vous avez besoin d'un site pour votre portfolio ou entreprise? Ne cherchez pas plus loin! Je peux créer votre site avec les specifications et fonctionalités que vous imaginez."
+      "description": "Vous avez besoin d'un site pour votre portfolio ou entreprise? Ne cherchez pas plus loin! Je peux créer votre site avec les spécifications et fonctionnalités que vous souhaitez."
     },
     "Website_Optimization":{
-      "title": " Optimization de Site Web",
-      "description": "Vous avez deja un site qui a besoin d'un nouveau look pour ce rendre moderne et faire face a la concurence? Ou peut etre vous avez besoin de nouvelles fonctionalités sur votre site. On peut travailler ensemble pour que votre site se demarque des autres!"
+      "title": " Optimisation de Site Web",
+      "description": "Vous avez déjà un site qui à besoin d'un nouveau look pour ce moderniser et faire face à la concurrence? Ou peut-être avez vous besoin de nouvelles fonctionalités pour votre site? Nous pouvons travailler ensemble pour que votre site se démarque des autres!"
     },
     "Domain_Management":{
-      "title": "Domain Management",
-      "description": "Quand on travaille ensemble, vous n'avez pas besoin de vous inqueter de la gestion du domaine ou du deploiement. Je m'occupe de tout aspects technologiques du site pour vous!"
+      "title": "Gestion de Domaine",
+      "description": "Quand on travaille ensemble, vous n'avez pas besoin de vous inquiéter de la gestion du domaine ou du déploiement. Je m'occupe de tous les aspects technologiques du site pour vous!"
     },
     "Buttons":{
-      "Examples": "Examples",
-      "Quote": "Avoir Un Devis"
+      "Examples": "Exemples",
+      "Quote": "Obtenir Un Devis"
     }
   },
-  "Contact": "Commençons un projet ensemble! Envoyez moi un message ici:",
+  "Contact": "Commençons un projet ensemble! Envoyez-moi un message ici:",
   "ContactForm":{
-    "Name": "Nom/Prenom",
+    "Name": "Nom/Prénom",
     "Email": "Adresse Mail",
-    "Phone": "Numero de Telephone",
+    "Phone": "Numéro de Téléphone",
     "Send": "Envoyer",   
     "Success": "A bientôt!",
     "Success_Message": "Votre message à été envoyé! Je reviens vers vous dès que possible!",

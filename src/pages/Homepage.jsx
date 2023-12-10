@@ -128,7 +128,7 @@ export default function Homepage() {
         </div>
       </section>
       <section className='homepage__experience' id='experience'>
-        <h2 className='section__title'>Experience</h2>
+        <h2 className='section__title'>{t('Experience')}</h2>
         <div className='experience__cardsContainer largeCardComponent__Container'>
           <LargeCardComponent
             skillName={'HTML'}
