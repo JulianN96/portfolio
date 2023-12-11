@@ -13,7 +13,7 @@ export default function Socials() {
       <div className='socials-container'>
         <Link
           className='social-list__link'
-          href='mailto:contact@dnadevstudios.com'
+          to='mailto:contact@dnadevstudios.com'
           target='_blank'
           aria-label='send an email'
         >
@@ -22,7 +22,7 @@ export default function Socials() {
 
         <Link
           className='social-list__link'
-          href='https://www.github.com/JulianN96'
+          to='https://www.github.com/JulianN96'
           target='_blank'
           aria-label='visit github profile'
         >
@@ -31,7 +31,7 @@ export default function Socials() {
 
         <Link
           className='social-list__link'
-          href='tel:+3376789271'
+          to='tel:+3376789271'
           target='_blank'
           aria-label='call via telephone'
         >
