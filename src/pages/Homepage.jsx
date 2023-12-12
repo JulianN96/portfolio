@@ -64,7 +64,7 @@ export default function Homepage() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_a8p2ga3', 'template_xddi8fb', form.current, 'dHFbN8Q39KXoDM9Yl')
+    emailjs.sendForm(`${process.env.REACT_APP_EMAILSERVICE_TOKEN}`, `${process.env.REACT_APP_TEMPLATE_TOKEN}`, form.current, `${process.env.REACT_APP_EMAILSERVICE_APIKEY}`)
       .then((result) => {
           console.log(result.text);
           setModalTitle(contactModalLang.Success);
