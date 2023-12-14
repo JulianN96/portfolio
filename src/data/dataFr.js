@@ -38,7 +38,7 @@ export const projectsDataFr = [
     images: [
       {
         image: p2preview,
-        alt: 'Apercu de Booki Website'
+        alt: 'Apercu de Booki Website',
       },
       {
         image: p2_1,
@@ -54,7 +54,9 @@ export const projectsDataFr = [
       },
     ],
     tags: ['HTML', 'CSS'],
-    description: "Un projet pour montrer l'efficacité d'un code HTML et CSS Optimisé et moderne"
+    description:
+      "Un projet pour montrer l'efficacité d'un code HTML et CSS Optimisé et moderne",
+    githubLink: 'https://github.com/JulianN96/Open-Classrooms-Project-2',
   },
   {
     title: 'Portfolio pour Architecte Interieur',
@@ -62,7 +64,7 @@ export const projectsDataFr = [
     images: [
       {
         image: p3preview,
-        alt: 'Apercu de  Portfolio Website'
+        alt: 'Apercu de  Portfolio Website',
       },
       {
         image: p3image1,
@@ -74,7 +76,9 @@ export const projectsDataFr = [
       },
     ],
     tags: ['Javascript'],
-    description: 'Un projet pour créer la structure javascript pour un portfolio.'
+    description:
+      'Un projet pour créer la structure javascript pour un portfolio.',
+    githubLink: 'https://github.com/JulianN96/Open-Classrooms-Project-3',
   },
   {
     title: 'Plannification de projet pour un Menu Maker',
@@ -82,7 +86,7 @@ export const projectsDataFr = [
     images: [
       {
         image: p4preview,
-        alt: 'Apercu de MenuMaker Website'
+        alt: 'Apercu de MenuMaker Website',
       },
       {
         image: p4_1,
@@ -106,7 +110,8 @@ export const projectsDataFr = [
       },
     ],
     tags: ['Managment de Projet', 'Méthodologie Agile'],
-    description: "J'ai organisé le planning et l'éxécution d'une équipe de developpeurs pour la création d'une application web"
+    description:
+      "J'ai organisé le planning et l'éxécution d'une équipe de developpeurs pour la création d'une application web",
   },
   {
     title: 'Nina Carducci - Photographe',
@@ -114,7 +119,7 @@ export const projectsDataFr = [
     images: [
       {
         image: p5preview,
-        alt: "Apercu du site d'un Photographe"
+        alt: "Apercu du site d'un Photographe",
       },
       {
         image: p5_1,
@@ -130,7 +135,9 @@ export const projectsDataFr = [
       },
     ],
     tags: ['Performance Optimization', 'SEO'],
-    description: "Un site de photographe déjà créé avait besoin d'une optimisation de performance et visibilité"
+    description:
+      "Un site de photographe déjà créé avait besoin d'une optimisation de performance et visibilité",
+    githubLink: 'https://github.com/JulianN96/Open-Classrooms-Project-5',
   },
   {
     title: 'Kasa - Site de location',
@@ -138,7 +145,7 @@ export const projectsDataFr = [
     images: [
       {
         image: p6preview,
-        alt: 'Apercu du site Kasa Locations'
+        alt: 'Apercu du site Kasa Locations',
       },
       {
         image: p6_1,
@@ -154,7 +161,9 @@ export const projectsDataFr = [
       },
     ],
     tags: ['React', 'Sass'],
-    description: 'Un projet pour démontrer la puissance de React et ses composants réutilisables sur ce site magnifique'
+    description:
+      'Un projet pour démontrer la puissance de React et ses composants réutilisables sur ce site magnifique',
+    githubLink: 'https://github.com/JulianN96/Open-Classrooms-Project-6',
   },
   {
     title: 'Mon Vieux Grimoire',
@@ -162,7 +171,7 @@ export const projectsDataFr = [
     images: [
       {
         image: p7preview,
-        alt: 'Preview of the backend of MVG Website'
+        alt: 'Preview of the backend of MVG Website',
       },
       {
         image: p7_1,
@@ -178,24 +187,40 @@ export const projectsDataFr = [
       },
     ],
     tags: ['NodeJS', 'Express', 'MongoDB'],
-    description: 'Avec un Front déja construit, ma mission était de monter un système back-end pour le site.'
+    description:
+      'Avec un Front déja construit, ma mission était de monter un système back-end pour le site.',
+    githubLink:
+      'https://github.com/JulianN96/Open-Classrooms-Project-7-Backend',
   },
 ];
-
 
 export const tagsFr = {
   HTML: ['Structure Propre', 'Optimizé SEO'],
   CSS: ['Design Responsive', 'Design UI/UX'],
-  JS: ['Structure Modulaire', 'Integrations API ', 'Experience fluide pour Utilizateurs'],
-  React: ['Composants Reutilisables', 'Gestion du Routing', 'Stateful Management'],
+  JS: [
+    'Structure Modulaire',
+    'Integrations API ',
+    'Experience fluide pour Utilizateurs',
+  ],
+  React: [
+    'Composants Reutilisables',
+    'Gestion du Routing',
+    'Stateful Management',
+  ],
   SASS: ['Structure Modulaire', 'Code Reutilizable', 'Animations Fluides'],
-  NodeJS: ['Framework Back-end', 'Serveur Modulable et Personalizé', 'Intallation MongoDB', 'Serveur Sécurisé']
-}
+  NodeJS: [
+    'Framework Back-end',
+    'Serveur Modulable et Personalizé',
+    'Intallation MongoDB',
+    'Serveur Sécurisé',
+  ],
+};
 
 export const contactModalFr = {
-  "Success": "A bientôt!",
-  "Success_Message": "Votre message à été envoyé! Je reviens vers vous dès que possible!",
-  "Close": "Fermer",
-  "Error": "Error",
-  "Error_Message": "Votre message n'à pu etre envoyé. Veuillez re-essayer."
-}
+  Success: 'A bientôt!',
+  Success_Message:
+    'Votre message à été envoyé! Je reviens vers vous dès que possible!',
+  Close: 'Fermer',
+  Error: 'Error',
+  Error_Message: "Votre message n'à pu etre envoyé. Veuillez re-essayer.",
+};

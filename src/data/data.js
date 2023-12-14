@@ -183,31 +183,7 @@ export const projectsDataEn = [
     description: 'With the front-end already built, my task was to build a functional backend for this library where users could submit, save and review their books',
     githubLink: 'https://github.com/JulianN96/Open-Classrooms-Project-7-Backend'
   },
-  {
-    title: 'Book Review Site',
-    date: 'November 2023',
-    images: [
-      {
-        image: p7preview,
-        alt: 'Preview of the backend of MVG Website'
-      },
-      {
-        image: p7_1,
-        alt: 'Add book webpage preview',
-      },
-      {
-        image: p7_2,
-        alt: 'Book browser page preview',
-      },
-      {
-        image: p7_3,
-        alt: 'Book info page preview',
-      },
-    ],
-    tags: ['NodeJS', 'Express', 'MongoDB'],
-    description: 'With the front-end already built, my task was to build a functional backend for this library where users could submit, save and review their books',
-    githubLink: 'https://github.com/JulianN96/Open-Classrooms-Project-7-Backend'
-  },
+
 ];
 
 
